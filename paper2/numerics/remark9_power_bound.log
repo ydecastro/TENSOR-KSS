@@ -1,0 +1,39 @@
+m=35 kappa=30 N=4 nu=34 rho=0.8660
+v_-=9.999999999999998, mu_b0=0.0800, beta_b0=0.0693
+rho v_-=8.660 >= d-1=4; rho(v_- - mu)=8.591 >= sqrt(2(d-1))=2.828
+beta_b0 <= rho v_-/4 = 2.165; beta_b0+sqrt(2(d-1))=2.898 <= rho tau=7.794 < rho v_-=8.660
+
+=== u^dagger: u_alpha(r/s) over a few admissible spectra (|r_i|<=tau, |s-1|<=eta) ===
+  r=tau Id, s=1-eta (attained)           u_alpha = 60.967
+  r=tau Id, s=1                          u_alpha = 55.470
+  r=tau Id, s=1+eta                      u_alpha = 55.394
+  r=-tau Id, s=1-eta                     u_alpha = 54.995
+  r=diag(tau,0,0,0), s=1-eta             u_alpha = 56.381
+  r=diag(tau,tau,-tau,-tau), s=1-eta     u_alpha = 57.398
+  r=0                                    u_alpha = 55.316
+u^dagger (paper 60.97) = 60.967; u_+ = (1+eta) u^dagger = 109.74 (paper 109.7); p_- = 75.0
+max u_alpha over 60 random admissible spectra = 56.070 (should not exceed u^dagger)
+
+=== the three mark probabilities ===
+C_rice=3.725e+05; Pbar(v_- - mu_b0)=3.45e-08 (paper 3.5e-8)
+q_eta = 5.14e-09 (paper 5.2e-9); central value 5.11e-09
+q_tau bound = 1.24e-05 (paper 1.3e-5)
+C_kd=470.65; calE = 0.006849 (paper 6.85e-3); share of q_tau = 99.4% (paper 99.4%)
+
+=== Kac-Rice mass delta^lambda(u_+; B_b0) with A = D_N - beta_2 D_{N-1} ===
+delta^lambda(u_+; B_b0) = 0.998761 (paper 0.99876); P(chi2_4 <= k b0) = 0.998766 (paper 0.99877)
+power bound (1-calE)*mass = 0.9919 (paper 0.991)
+rho u_+ = 95.0 (paper 95.0); (lambda-u_+) = 40.3 sd (paper 40)
+
+=== Remark 10: q_eta >= P(chi2_kappa > 4 kappa) ===
+P(chi2_30 > 120) = 1.02e-12; C_kd * that = 4.8e-10
+
+=== Section 7 level-map claim: t_{m-1} 0.95 quantile vs Gaussian at (3,5) ===
+t_34(0.95)/z(0.95) - 1 = 0.0280 (paper 2.8%)
+
+=== Theorem 6(i) at (3,5): smallest R with R (d-1) k lam^2 >= ((d-1) - d R)^2 ===
+  lambda= 5: R >= 0.047223, that is 88.54% of (d-1)/(k lambda^2)
+  lambda=10: R >= 0.012907, that is 96.80% of (d-1)/(k lambda^2)
+  lambda=20: R >= 0.003306, that is 99.18% of (d-1)/(k lambda^2)
+  lambda=40: R >= 0.000832, that is 99.79% of (d-1)/(k lambda^2)
+  paper: 0.0472, 0.01290, 0.003305, 0.000831; 88.54%, 96.80%, 99.18%, 99.79%

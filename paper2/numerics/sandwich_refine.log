@@ -1,0 +1,6 @@
+lam=20 u=16: Thm (ii) optimal theta1=0.14494: bound 4.257070e-03, ratio to target 1.27712, varrho=0.04798, eps_A=0.07369, Rem_far=7.757e-05, valid=True; ratio to lower (i) 1.28774
+lam=20 u=18: Thm (ii) optimal theta1=0.14477: bound 2.694829e-02, ratio to target 8.08449, varrho=0.04787, eps_A=0.06778, Rem_far=7.454e-05, valid=True; ratio to lower (i) 8.15172
+lam=40 u=34: Thm (ii) optimal theta1=0.08035: bound 8.933596e-04, ratio to target 1.07203, varrho=0.01496, eps_A=0.02027, Rem_far=3.793e-06, valid=True; ratio to lower (i) 1.07426
+lam=40 u=36: Thm (ii) optimal theta1=0.08039: bound 9.242949e-04, ratio to target 1.10915, varrho=0.01498, eps_A=0.01944, Rem_far=3.738e-06, valid=True; ratio to lower (i) 1.11146
+lam=20: lower=3.3058416e-03 upper=3.3904740e-03: upper/lower-1 = 2.560%, (up-lo)/target = 2.539%, (up-lo)/up = 2.496%; with table-rounded values: 2.541%
+lam=40: lower=8.3160173e-04 upper=8.3490520e-04: upper/lower-1 = 0.397%, (up-lo)/target = 0.396%, (up-lo)/up = 0.396%; with table-rounded values: 0.349%

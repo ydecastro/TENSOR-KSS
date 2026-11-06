@@ -1,0 +1,7 @@
+(k,d)=(3,5) eigenvalues of Omega: [-1.5482 -0.9376  1.0703  3.3326]  lmax= 3.3326
+   alpha=0.05: known 4.896966 (paper 4.897)  t 5.485642 (paper 5.486)  extra 0.588676 (paper +0.589)  rel. extra 12.02%
+   alpha=0.01: known 5.275475 (paper 5.276)  t 6.171156 (paper 6.171)  extra 0.895681 (paper +0.895)  rel. extra 16.98%
+(k,d)=(3,8) eigenvalues of Omega: [-4.3693 -0.938  -0.4781  0.1857  0.8042  1.3108  3.3079]  lmax= 3.3079
+   alpha=0.05: known 5.035789 (paper 5.036)  t 5.201922 (paper 5.202)  extra 0.166133 (paper +0.166)  rel. extra 3.299%
+(k,d)=(5,6) eigenvalues of Omega: [-3.5014 -1.6716 -1.1335  1.5031  2.4407]  lmax= 2.4407
+   alpha=0.05: known 4.861933 (paper 4.862)  t 4.923256 (paper 4.923)  extra 0.0613231 (paper +0.061)  rel. extra 1.261%

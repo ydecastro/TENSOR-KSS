@@ -1,0 +1,29 @@
+=== Section 7, 'The power bound': delta^lambda(u_+; B_b0) at (3,5), lam=150, b0=6 ===
+delta = 0.9987610061   limit P(chi2_4 <= 18) = 0.998765902   diff = 4.896e-6
+  (u= 109.7 ) delta = 0.9987610061
+  (u= 109.74 ) delta = 0.9987610061
+power bound (1-E) delta = 0.99185794  ; with E=6.9e-3 exactly: 0.99186956
+u_+ in sd below lam: 40.26 ; rho u_+ = 95.0376
+delta(u_+; whole hemisphere c>=0) = 1.0
+
+=== Section 7, 'The estimation sandwich' at (3,5) ===
+lam=20 u=16: lower(i)=3.305842e-03 target=3.333333e-03
+   (ii) optimised over theta1: 4.257073e-03 (ratio 1.27712) at theta1=0.1450, varrho=0.04802, epsA=0.0737, Rem_far=7.69e-05, main=4.148498e-03
+   (ii) at appendix theta1=0.1224: 5.565806e-03 (ratio 1.66974); Rem_far=0.00162, varrho=0.03442
+   direct Kac-Rice int sin^2 d delta + Phi: 3.390474e-03 (ratio 1.01714);  of which Phi(u-lam)=3.1671e-05 = 0.950% of target; far side c<0: 2.75e-53
+   upper/lower: (ii)opt 1.28774, direct 1.02560
+lam=20 u=18: lower(i)=3.305842e-03 target=3.333333e-03
+   (ii) optimised over theta1: 2.694833e-02 (ratio 8.08450) at theta1=0.1450, varrho=0.04802, epsA=0.0679, Rem_far=7.21e-05, main=4.126091e-03
+   (ii) at appendix theta1=0.1224: 2.819848e-02 (ratio 8.45954); Rem_far=0.00154, varrho=0.03442
+   direct Kac-Rice int sin^2 d delta + Phi: 2.604160e-02 (ratio 7.81248);  of which Phi(u-lam)=2.2750e-02 = 682.504% of target; far side c<0: 6.42e-68
+   upper/lower: (ii)opt 8.15173, direct 7.87745
+lam=40 u=34: lower(i)=8.316017e-04 target=8.333333e-04
+   (ii) optimised over theta1: 8.933891e-04 (ratio 1.07207) at theta1=0.0800, varrho=0.01484, epsA=0.0201, Rem_far=4.29e-06, main=8.891028e-04
+   (ii) at appendix theta1=0.0679: 1.083238e-03 (ratio 1.29989); Rem_far=0.000209, varrho=0.01071
+   direct Kac-Rice int sin^2 d delta + Phi: 8.349052e-04 (ratio 1.00189);  of which Phi(u-lam)=9.8659e-10 = 0.000% of target; far side c<0: 5.33e-248
+   upper/lower: (ii)opt 1.07430, direct 1.00397
+lam=40 u=36: lower(i)=8.316017e-04 target=8.333333e-04
+   (ii) optimised over theta1: 9.243313e-04 (ratio 1.10920) at theta1=0.0800, varrho=0.01484, epsA=0.0193, Rem_far=4.28e-06, main=8.883752e-04
+   (ii) at appendix theta1=0.0679: 1.114376e-03 (ratio 1.33725); Rem_far=0.000209, varrho=0.01071
+   direct Kac-Rice int sin^2 d delta + Phi: 8.665518e-04 (ratio 1.03986);  of which Phi(u-lam)=3.1671e-05 = 3.801% of target; far side c<0: 2.45e-278
+   upper/lower: (ii)opt 1.11151, direct 1.04203

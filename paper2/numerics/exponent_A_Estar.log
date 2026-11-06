@@ -1,0 +1,24 @@
+(k,d) kappa  Tmax=sqrt(kappa)/rho  Lambda(Tmax)  argmax_j  A=(Lambda/alpha)^(1/kappa)  E*=rho^2/(2(A^2+rho^2))  A_mech  E_mech  S=k/(2(3k-2))   | paper: Tmax A E* E_mech S
+(3,3)    7   3.0551     154.75868  j=0  A=3.1526  E*=0.035083  Amech=2.5597  Emech=0.031954  S=0.21429   | 3.06 3.153 0.0351 0.032 0.2143
+      improvement E*/E_mech = 1.098;  Lambda(Tmax)/binom = 4.2989;  all Lambda terms: ['154.76', '57.452', '9.9633']
+(3,4)   16   4.6188     37963.002  j=0  A=2.3309  E*=0.060649  Amech=1.8534  Emech=0.05071  S=0.21429   | 4.62 2.331 0.0606 0.0507 0.2143
+      improvement E*/E_mech = 1.196;  Lambda(Tmax)/binom = 39.178;  all Lambda terms: ['37963.0', '10395.0', '1841.9', '159.13']
+(3,5)   30   6.3246    67034593.0  j=0  A=2.01486  E*=0.077968  Amech=1.5809  Emech=0.06263  S=0.21429   | 6.32 2.015 0.078 0.0626 0.2143
+      improvement E*/E_mech = 1.245;  Lambda(Tmax)/binom = 1445.5;  all Lambda terms: ['6.7035e+7', '1.3819e+7', '2.1049e+6', '2.109e+5', '10442.0']
+(5,3)   18   5.3666      8457.692  j=0  A=1.95191  E*=0.070463  Amech=1.5808  Emech=0.055571  S=0.19231   | 5.37 1.952 0.0705 0.0556 0.1923
+      improvement E*/E_mech = 1.268;  Lambda(Tmax)/binom = 44.514;  all Lambda terms: ['8457.7', '1341.1', '103.45']
+(5,5)  121   13.914  1.766031e+19  j=0  A=1.47849  E*=0.11117  Amech=1.1708  Emech=0.081231  S=0.19231   | 13.91 1.478 0.1112 0.0812 0.1923
+      improvement E*/E_mech = 1.369;  Lambda(Tmax)/binom = 1.8223e+12;  all Lambda terms: ['1.766e+19', '9.189e+17', '3.5732e+16', '9.2315e+14', '1.1886e+13']
+(7,5)  325   23.604  4.2028807e+40  j=0  A=1.34586  E*=0.1218  Amech=1.0733  Emech=0.086427  S=0.18421   | 23.6 1.346 0.1218 0.0864 0.1842
+      improvement E*/E_mech = 1.409;  Lambda(Tmax)/binom = 8.7685e+31;  all Lambda terms: ['4.2029e+40', '8.0946e+38', '1.1677e+37', '1.1214e+35', '5.3781e+32']
+
+Remark 24 at (3,3): alpha^{-1/kappa} = 1.53413  rho^2/(2(alpha^{-2/kappa}+rho^2)) = 0.120829
+Theorem 16 (thm:upper), text: (5,5) alpha^{-1/121} = 1.02507
+Section 4: (3,5) A_mech = 1.5809  9A = 14.228  exponent rho^2/(2(rho+9A)^2) = 0.0016459
+
+Section 4 (balance exponent):
+(3,3) kappa=7 rho=0.866 A=2.56 v*/lam=1/(rho+A)=0.292 exp=0.03195 share=6.39%
+(3,5) kappa=30 rho=0.866 A=1.581 v*/lam=1/(rho+A)=0.409 exp=0.06263 share=12.5%
+(5,3) kappa=18 rho=0.7906 A=1.581 v*/lam=1/(rho+A)=0.422 exp=0.05557 share=11.1%
+(5,5) kappa=121 rho=0.7906 A=1.171 v*/lam=1/(rho+A)=0.51 exp=0.08123 share=16.2%
+(7,5) kappa=325 rho=0.7638 A=1.073 v*/lam=1/(rho+A)=0.544 exp=0.08643 share=17.3%

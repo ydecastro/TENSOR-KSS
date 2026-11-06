@@ -1,0 +1,68 @@
+\documentclass[border=6pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
+
+% categorical slots 1-4 of the reference palette (light mode)
+\definecolor{sA}{HTML}{2A78D6}  % blue   j=2
+\definecolor{sB}{HTML}{EB6834}  % orange j=3
+\definecolor{sC}{HTML}{1BAF7A}  % aqua   j=4
+\definecolor{sD}{HTML}{EDA100}  % yellow j=5
+\definecolor{ink}{HTML}{0B0B0B}
+\definecolor{ink2}{HTML}{52514E}
+\definecolor{gridc}{HTML}{DEDEDA}
+
+\pgfplotsset{
+  base/.style={
+    width=7.6cm, height=5.6cm,
+    axis lines=left, axis line style={draw=ink2, line width=.5pt},
+    tick align=outside, tick style={draw=ink2, line width=.5pt},
+    grid=major, grid style={draw=gridc, line width=.4pt},
+    every axis plot/.append style={line width=1.2pt, no markers, smooth},
+    label style={font=\normalsize, color=ink2},
+    tick label style={font=\small, color=ink2},
+    title style={font=\normalsize, color=ink, align=left},
+    xlabel={$\theta/\pi$}, xmin=0, xmax=1,
+    xtick={0,0.25,0.5,0.75,1},
+    xticklabels={$0$,$\tfrac14$,$\tfrac12$,$\tfrac34$,$1$},
+  }
+}
+\begin{document}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1, horizontal sep=1.9cm}, base]
+
+\nextgroupplot[title={$w_j(\theta)=\binom{5}{j}^{1/2}\dfrac{\cos^{5-j}\theta\,\sin^{j}\theta}{1-\cos^{5}\theta}$\quad($k=5$)},
+  ylabel={$w_j$}, ymin=-0.78, ymax=1.45, ytick={-0.5,0,0.5,1,1.2649},
+  yticklabels={$-0.5$,$0$,$0.5$,$1$,$\varsigma$},
+  legend style={font=\small, draw=gridc, fill=white, at={(0.985,0.985)},
+                anchor=north east, cells={anchor=west}, row sep=1pt}]
+  \addplot[gray!55, dashed, line width=.7pt, forget plot] coordinates {(0,1.264911)(1,1.264911)};
+  \addplot[gray!70, line width=.5pt, forget plot] coordinates {(0,0)(1,0)};
+  \addplot[sA] table[x=t,y=w] {w2.dat}; \addlegendentry{$j=2$}
+  \addplot[sB] table[x=t,y=w] {w3.dat}; \addlegendentry{$j=3$}
+  \addplot[sC] table[x=t,y=w] {w4.dat}; \addlegendentry{$j=4$}
+  \addplot[sD] table[x=t,y=w] {w5.dat}; \addlegendentry{$j=5$}
+  % direct labels
+  \node[sA, font=\small\bfseries, anchor=west] at (axis cs:0.055,1.355) {$j=2$};
+  \node[sB, font=\small\bfseries, anchor=south] at (axis cs:0.246,0.70) {$j=3$};
+  \node[sC, font=\small\bfseries, anchor=south west] at (axis cs:0.395,0.60) {$j=4$};
+  \node[sD, font=\small\bfseries, anchor=south] at (axis cs:0.50,1.02) {$j=5$};
+  % extrema markers
+  \addplot[only marks, mark=*, mark size=1.7pt, sB, forget plot] coordinates {(0.24579,0.67939)(0.70316,0.54091)};
+  \addplot[only marks, mark=*, mark size=1.7pt, sC, forget plot] coordinates {(0.34549,0.65294)(0.64266,-0.62961)};
+  \addplot[only marks, mark=*, mark size=1.7pt, sD, forget plot] coordinates {(0.5,1.0)};
+  \addplot[only marks, mark=*, mark size=1.7pt, sA, forget plot] coordinates {(0.75683,-0.47631)};
+  \addplot[only marks, mark=o, mark size=1.7pt, sA, forget plot] coordinates {(0,1.264911)};
+
+\nextgroupplot[title={$V(\theta)=\sum_{j=2}^{5}w_j(\theta)^2$},
+  ylabel={$V$}, ymin=0, ymax=1.75, ytick={0,0.5,1,1.6},
+  yticklabels={$0$,$0.5$,$1$,$\varsigma^{2}=\tfrac85$}]
+  \addplot[gray!55, dashed, line width=.7pt, forget plot] coordinates {(0,1.6)(1,1.6)};
+  \addplot[sA] table[x=t,y=v] {V.dat};
+  \addplot[only marks, mark=o, mark size=1.7pt, sA, forget plot] coordinates {(0,1.6)};
+  \node[ink2, font=\small, anchor=north east] at (axis cs:0.97,1.52)
+       {sup attained only as $\theta\to0$};
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

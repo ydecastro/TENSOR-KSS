@@ -1,0 +1,18 @@
+--- Omega = 0 ---
+(3, 5) 0.05 4 known 4.7926 (paper 4.897)  t 5.2670 (paper 5.486)  extra 0.4744 (paper +0.589)
+(3, 5) 0.01 4 known 5.1569 (paper 5.276)  t 5.9097 (paper 6.171)  extra 0.7528 (paper +0.895)
+(3, 8) 0.05 4 known 4.9196 (paper 5.036)  t 5.0572 (paper 5.202)  extra 0.1376 (paper +0.166)
+(5, 6) 0.05 4 known 4.8321 (paper 4.862)  t 4.8900 (paper 4.923)  extra 0.0579 (paper +0.061)
+
+--- Omega = G/rho for random GOE draws: distribution of the level maps ---
+(3, 5) 0.05 198 draws with lmax<v: known median 4.824 [4.784,4.900]  t median 5.339  extra median 0.514
+(3, 5) 0.01 198 draws with lmax<v: known median 5.195 [5.146,5.276]  t median 5.999  extra median 0.803
+(3, 8) 0.05 159 draws with lmax<v: known median 5.051 [4.954,5.195]  t median 5.220  extra median 0.170
+(5, 6) 0.05 177 draws with lmax<v: known median 4.890 [4.836,5.003]  t median 4.954  extra median 0.065
+
+--- single-quantile inflation at (3,5), alpha=0.05 ---
+t_{m-1}/z - 1 = 0.02800895318616825 ; t_kappa/z - 1 = 0.03186135154142278 ; gamma t_{m-1} / z - 1 = -0.03435373309270762
+(3, 5) 0.05  t_{m-1}/z-1 = 0.028  t_kap/z-1 = 0.0319
+(3, 5) 0.01  t_{m-1}/z-1 = 0.0493  t_kap/z-1 = 0.0563
+(3, 8) 0.05  t_{m-1}/z-1 = 0.0078  t_kap/z-1 = 0.0083
+(5, 6) 0.05  t_{m-1}/z-1 = 0.0037  t_kap/z-1 = 0.0038

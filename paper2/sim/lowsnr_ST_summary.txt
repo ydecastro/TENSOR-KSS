@@ -1,0 +1,7 @@
+lam=0.0: n=1000000 T=0.0502+-0.0002 S=0.0499+-0.0002 viol=0 T2over=0 S>1=0 nan=0,0 notlocmax=0 chk=0,0/20000 wall=356.8s KS_T p=0.280 KS_S p=0.985 lev05 T=0.05015 S=0.04994 lev01 T=0.00972 S=0.00992
+lam=1.4: n=500000 T=0.0693+-0.0004 S=0.1118+-0.0004 viol=0 T2over=0 S>1=0 nan=0,0 notlocmax=0 chk=0,0/10000 wall=182.5s
+lam=1.6: n=500000 T=0.0781+-0.0004 S=0.1384+-0.0005 viol=0 T2over=0 S>1=0 nan=0,0 notlocmax=0 chk=0,0/10000 wall=179.3s
+lam=1.8: n=500000 T=0.0896+-0.0004 S=0.1729+-0.0005 viol=0 T2over=0 S>1=0 nan=0,0 notlocmax=0 chk=0,0/10000 wall=189.0s
+lam=2.0: n=500000 T=0.1051+-0.0004 S=0.2132+-0.0006 viol=0 T2over=0 S>1=0 nan=0,0 notlocmax=0 chk=0,0/10000 wall=195.5s
+lam=3.0: n=500000 T=0.2327+-0.0006 S=0.5100+-0.0007 viol=0 T2over=0 S>1=0 nan=0,0 notlocmax=0 chk=0,0/10000 wall=196.8s
+lam=5.0: n=500000 T=0.6501+-0.0007 S=0.9619+-0.0003 viol=0 T2over=0 S>1=0 nan=0,0 notlocmax=0 chk=0,0/10000 wall=193.1s

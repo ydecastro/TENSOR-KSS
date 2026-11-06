@@ -1,0 +1,15 @@
+null law of F=(7/3)Q1/Q3 vs F_(3,7): KS stat 0.00030, p = 0.859  (4000000 replicates)
+alpha=0.05: f_alpha=4.3468; C_F exact = 1.53898e-02, MC = 1.53990e-02 (+-5.0e-05); C_F/C_opt = 0.4210, C_F/C_max = 0.5198, C_max/C_opt = 0.8100
+alpha=0.01: f_alpha=8.4513; C_F exact = 3.80427e-03, MC = 3.80504e-03 (+-2.7e-05); C_F/C_opt = 0.3520, C_F/C_max = 0.4501, C_max/C_opt = 0.7822
+alpha=0.05 lam=1.4: power F-test = 0.0773 (se 0.0001); quadratic (known sigma, exact) = 0.1356
+alpha=0.05 lam=1.6: power F-test = 0.0846 (se 0.0001); quadratic (known sigma, exact) = 0.1664
+alpha=0.05 lam=1.8: power F-test = 0.0922 (se 0.0001); quadratic (known sigma, exact) = 0.2032
+alpha=0.05 lam=2.0: power F-test = 0.1001 (se 0.0002); quadratic (known sigma, exact) = 0.2461
+alpha=0.05 lam=3.0: power F-test = 0.1396 (se 0.0002); quadratic (known sigma, exact) = 0.5341
+alpha=0.05 lam=5.0: power F-test = 0.1913 (se 0.0002); quadratic (known sigma, exact) = 0.9627
+alpha=0.01 lam=1.4: power F-test = 0.0168 (se 0.0001); quadratic (known sigma, exact) = 0.0408
+alpha=0.01 lam=1.6: power F-test = 0.0186 (se 0.0001); quadratic (known sigma, exact) = 0.0542
+alpha=0.01 lam=1.8: power F-test = 0.0205 (se 0.0001); quadratic (known sigma, exact) = 0.0716
+alpha=0.01 lam=2.0: power F-test = 0.0224 (se 0.0001); quadratic (known sigma, exact) = 0.0937
+alpha=0.01 lam=3.0: power F-test = 0.0310 (se 0.0001); quadratic (known sigma, exact) = 0.2940
+alpha=0.01 lam=5.0: power F-test = 0.0332 (se 0.0001); quadratic (known sigma, exact) = 0.8747

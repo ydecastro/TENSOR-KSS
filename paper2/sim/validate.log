@@ -1,0 +1,60 @@
+==== (k,d)=(3,3) m=10 kappa=7 N=2
+ Z(tensor) vs <y,f>: 8.881784197001252e-16  | ||y||-||T||_F: 8.881784197001252e-16
+ sum f(s)f(t) - <s,t>^k: 3.3306690738754696e-16
+ grad FD: 5.078932829860605e-10  hess FD: 1.8472334772923205e-10
+ critical grad norm: 2.967399541567973e-15
+ frame orthonormality: 2.220446049250313e-16  U e0 - t: 0.0
+ rotation T'(a) - T(Ua): 1.7763568394002505e-15  T'[0^k]-lambda1: 0.0
+ Omega vs (HessR+kZ)/k: 1.3322676295501878e-15  vs P D2Z P/k: 4.440892098500626e-16
+ helix G vs projection quotient (critical): 1.1994405468840341e-11  vs (Z(s)-c^k l1)/(1-c^k): 1.056932319443149e-13
+  ||P_perp y||^2 projection vs formula: 1.4210854715202004e-14  rank(basis)= 3
+ fibre: G(0,u)-u'Om u: 8.881784197001252e-16  G(1e-7,u)-u'Om u: 7.127629964021054e-08  direct quotient at th=1e-3 minus u'Om u: 0.0007129465460534723
+ helix dG/dth FD: 3.8551117853558026e-10  dG/du FD: 4.946898446434034e-10
+ symmetry G(-th,-u)-G(th,u): 0.0
+ T: Beta-form vs quad max rel err 1.40e-14; closed vs quad 1.78e-15; absolute H_r(2): Beta 1.6788480751e-01 quad 1.6788480751e-01
+ threshold: T(T1,tau) = [0.05 0.05 0.05 0.05 0.05 0.05 0.05]  always: 0
+==== (k,d)=(3,4) m=20 kappa=16 N=3
+ Z(tensor) vs <y,f>: 4.440892098500626e-16  | ||y||-||T||_F: 1.7763568394002505e-15
+ sum f(s)f(t) - <s,t>^k: 2.220446049250313e-16
+ grad FD: 5.166123084876517e-10  hess FD: 1.6196421981362619e-10
+ critical grad norm: 2.8457249041605285e-15
+ frame orthonormality: 2.794415224500871e-16  U e0 - t: 0.0
+ rotation T'(a) - T(Ua): 6.661338147750939e-16  T'[0^k]-lambda1: 8.881784197001252e-16
+ Omega vs (HessR+kZ)/k: 2.220446049250313e-15  vs P D2Z P/k: 8.881784197001252e-16
+ helix G vs projection quotient (critical): 3.3524916176475017e-10  vs (Z(s)-c^k l1)/(1-c^k): 2.0516921495072893e-13
+  ||P_perp y||^2 projection vs formula: 1.4210854715202004e-14  rank(basis)= 4
+ fibre: G(0,u)-u'Om u: 8.881784197001252e-16  G(1e-7,u)-u'Om u: 1.1114733466932591e-07  direct quotient at th=1e-3 minus u'Om u: 0.0011111925538374035
+ helix dG/dth FD: 4.814753040705e-10  dG/du FD: 2.1925572468717291e-10
+ symmetry G(-th,-u)-G(th,u): 0.0
+ T: Beta-form vs quad max rel err 3.62e-14; closed vs quad 1.55e-15; absolute H_r(2): Beta 2.0809934132e-01 quad 2.0809934132e-01
+ threshold: T(T1,tau) = [0.05 0.05 0.05 0.05 0.05 0.05 0.05]  always: 0
+==== (k,d)=(3,5) m=35 kappa=30 N=4
+ Z(tensor) vs <y,f>: 6.661338147750939e-16  | ||y||-||T||_F: 1.7763568394002505e-15
+ sum f(s)f(t) - <s,t>^k: 3.3306690738754696e-16
+ grad FD: 5.557332372063684e-10  hess FD: 2.2654234044239274e-10
+ critical grad norm: 3.0437666174750507e-15
+ frame orthonormality: 2.220446049250313e-16  U e0 - t: 0.0
+ rotation T'(a) - T(Ua): 8.881784197001252e-16  T'[0^k]-lambda1: 0.0
+ Omega vs (HessR+kZ)/k: 2.1094237467877974e-15  vs P D2Z P/k: 4.996003610813204e-16
+ helix G vs projection quotient (critical): 8.310707677594564e-11  vs (Z(s)-c^k l1)/(1-c^k): 1.2367884494324244e-13
+  ||P_perp y||^2 projection vs formula: 2.842170943040401e-14  rank(basis)= 5
+ fibre: G(0,u)-u'Om u: 4.440892098500626e-16  G(1e-7,u)-u'Om u: 1.513945763198521e-07  direct quotient at th=1e-3 minus u'Om u: 0.0015138718924495032
+ helix dG/dth FD: 2.7009816605527703e-10  dG/du FD: 2.8981742006273237e-10
+ symmetry G(-th,-u)-G(th,u): 0.0
+ T: Beta-form vs quad max rel err 7.17e-14; closed vs quad 1.39e-14; absolute H_r(2): Beta nan quad 3.7817731510e-01
+ threshold: T(T1,tau) = [0.05 0.05 0.05 0.05 0.05 0.05 0.05]  always: 0
+==== (k,d)=(5,3) m=21 kappa=18 N=2
+ Z(tensor) vs <y,f>: 8.881784197001252e-16  | ||y||-||T||_F: 4.440892098500626e-15
+ sum f(s)f(t) - <s,t>^k: 1.6653345369377348e-16
+ grad FD: 3.5397427211592003e-09  hess FD: 7.148713621063507e-09
+ critical grad norm: 3.21193501797738e-15
+ frame orthonormality: 2.220446049250313e-16  U e0 - t: 0.0
+ rotation T'(a) - T(Ua): 1.7763568394002505e-15  T'[0^k]-lambda1: 8.881784197001252e-16
+ Omega vs (HessR+kZ)/k: 1.5543122344752192e-15  vs P D2Z P/k: 5.551115123125783e-16
+ helix G vs projection quotient (critical): 5.979772232933556e-11  vs (Z(s)-c^k l1)/(1-c^k): 2.438049762076844e-13
+  ||P_perp y||^2 projection vs formula: 1.7763568394002505e-14  rank(basis)= 3
+ fibre: G(0,u)-u'Om u: 4.440892098500626e-16  G(1e-7,u)-u'Om u: 2.8625953341077093e-07  direct quotient at th=1e-3 minus u'Om u: 0.0028615097313946514
+ helix dG/dth FD: 4.578146750588985e-10  dG/du FD: 6.022635723468284e-10
+ symmetry G(-th,-u)-G(th,u): 0.0
+ T: Beta-form vs quad max rel err 3.11e-14; closed vs quad 1.55e-15; absolute H_r(2): Beta 2.6408183097e-01 quad 2.6408183097e-01
+ threshold: T(T1,tau) = [0.05 0.05 0.05 0.05 0.05 0.05 0.05]  always: 0

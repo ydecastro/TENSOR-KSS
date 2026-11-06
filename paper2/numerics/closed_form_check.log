@@ -1,0 +1,9 @@
+(3, 5) l= 0.78358  G rel.err 0.0   H rel.err 3.44e-41
+(3, 5) l= 4.0  G rel.err 2.3e-41   H rel.err 9.18e-41
+(3, 5) l= 9.0  G rel.err 3.73e-37   H rel.err 2.41e-40
+(3, 8) l= 3.1996  G rel.err 1.15e-41   H rel.err 4.48e-40
+(3, 8) l= 4.0  G rel.err 1.15e-40   H rel.err 2.41e-40
+(3, 8) l= 9.0  G rel.err 2.3e-41   H rel.err 5.51e-40
+(5, 6) l= 1.1824  G rel.err 0.0   H rel.err 0.0
+(5, 6) l= 4.0  G rel.err 0.0   H rel.err 1.39e-39
+(5, 6) l= 9.0  G rel.err 4.24e-37   H rel.err 1.68e-35

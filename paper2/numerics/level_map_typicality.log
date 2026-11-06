@@ -1,0 +1,3 @@
+(3, 5): 2938 draws with lmax<4 (of 3000). rng(3) draw: known 4.8970 (pct 92), t 5.4856 (pct 91), extra 0.5887 (pct 90); medians: known 4.8181, t 5.3233, extra 0.5054
+(3, 8): 2368 draws with lmax<4 (of 3000). rng(3) draw: known 5.0358 (pct 47), t 5.2019 (pct 47), extra 0.1661 (pct 48); medians: known 5.0408, t 5.2083, extra 0.1678
+(5, 6): 2662 draws with lmax<4 (of 3000). rng(3) draw: known 4.8619 (pct 30), t 4.9233 (pct 30), extra 0.0613 (pct 29); medians: known 4.8886, t 4.9534, extra 0.0647

@@ -1,0 +1,5 @@
+(k,d)=(3,3), 40000 grid points, 200000 replicates, seed 7
+E T_q = 1.00018 (exact 1), Var T_q = 0.28658 (exact 2 E T_cor^2k = 0.28571)
+alpha=0.05: u_alpha=3.1806  C_max=2.9590e-02 (s.e. 3.2e-04)  t_alpha=2.0216  C_opt=3.6553e-02  efficiency=0.8095
+alpha=0.01: u_alpha=3.6778  C_max=8.3981e-03 (s.e. 2.0e-04)  t_alpha=2.7318  C_opt=1.0807e-02  efficiency=0.7771
+paper: u_alpha 3.181, 3.678; t_alpha 2.022, 2.732; C_max 2.959e-2, 8.398e-3; C_opt 3.655e-2, 1.081e-2; efficiency 0.810, 0.777
