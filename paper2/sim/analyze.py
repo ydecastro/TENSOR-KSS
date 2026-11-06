@@ -122,12 +122,16 @@ for kd in sorted({(k, d) for (k, d, l) in pts}):
         beta = cov @ X.T @ Wm @ Y
         print(f"  WLS fit with log-prefactor -log def = a + b lam^2 + c log lam: b = {beta[1]:.4f} +- "
               f"{sqrt(cov[1,1]):.4f}, c = {beta[2]:.2f}")
-        # fit with a linear term: -log def = a + b lam^2 + c lam (the correction of order lambda of the lower bound)
-        X = np.stack([np.ones_like(L), L ** 2, L], 1)
-        cov = np.linalg.inv(X.T @ Wm @ X)
-        beta = cov @ X.T @ Wm @ Y
-        res = Y - X @ beta
-        chi2 = float((Wt * res ** 2).sum())
-        print(f"  WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [{L[0]:.2f},{L[-1]:.2f}]: "
-              f"b = {beta[1]:.4f} +- {sqrt(cov[1,1]):.4f}, c = {beta[2]:.3f} +- {sqrt(cov[2,2]):.3f}, "
-              f"a = {beta[0]:.3f};  chi2/dof = {chi2:.1f}/{len(L)-3}")
+        # fit with a linear term: -log def = a + b lam^2 + c lam (the correction of order lambda of the lower bound),
+        # on the whole row and on the row without its first point
+        for lo_i in range(0, min(2, len(L) - 3)):
+            Ls, Ys, Ws = L[lo_i:], Y[lo_i:], Wt[lo_i:]
+            X = np.stack([np.ones_like(Ls), Ls ** 2, Ls], 1)
+            Wm2 = np.diag(Ws)
+            cov = np.linalg.inv(X.T @ Wm2 @ X)
+            beta = cov @ X.T @ Wm2 @ Ys
+            res = Ys - X @ beta
+            chi2 = float((Ws * res ** 2).sum())
+            print(f"  WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [{Ls[0]:.2f},{Ls[-1]:.2f}]: "
+                  f"b = {beta[1]:.4f} +- {sqrt(cov[1,1]):.4f}, c = {beta[2]:.3f} +- {sqrt(cov[2,2]):.3f}, "
+                  f"a = {beta[0]:.3f};  chi2/dof = {chi2:.1f}/{len(Ls)-3}")

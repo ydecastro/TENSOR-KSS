@@ -33,6 +33,7 @@ Null calibration
   OLS (unweighted) whole grid: b = 0.0653
   WLS fit with log-prefactor -log def = a + b lam^2 + c log lam: b = 0.0652 +- 0.0019, c = -0.01
   WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [6.00,12.00]: b = 0.0653 +- 0.0038, c = -0.003 +- 0.061, a = -0.635;  chi2/dof = 2.2/3
+  WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [7.00,12.00]: b = 0.0642 +- 0.0062, c = 0.017 +- 0.108, a = -0.724;  chi2/dof = 2.2/2
 ====================================================================================================
 (k,d)=(3,4)  kappa=16  alpha=0.05   A_bin=1.8534 A_sharp=1/q=1.5611
   recomputed comparison exponents: mechanism 0.0507, ratio-binomial 0.0896, ratio-sharp 0.1177
@@ -56,6 +57,7 @@ Null calibration
   OLS (unweighted) whole grid: b = 0.1115
   WLS fit with log-prefactor -log def = a + b lam^2 + c log lam: b = 0.1296 +- 0.0025, c = -2.00
   WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [5.00,10.00]: b = 0.1514 +- 0.0047, c = -0.598 +- 0.062, a = 0.591;  chi2/dof = 1.3/3
+  WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [6.00,10.00]: b = 0.1467 +- 0.0098, c = -0.527 +- 0.144, a = 0.327;  chi2/dof = 1.0/2
 ====================================================================================================
 (k,d)=(3,5)  kappa=30  alpha=0.05   A_bin=1.5809 A_sharp=1/q=1.3321
   recomputed comparison exponents: mechanism 0.0626, ratio-binomial 0.1154, ratio-sharp 0.1485
@@ -79,6 +81,7 @@ Null calibration
   OLS (unweighted) whole grid: b = 0.1366
   WLS fit with log-prefactor -log def = a + b lam^2 + c log lam: b = 0.1772 +- 0.0037, c = -4.28
   WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [5.00,9.50]: b = 0.2264 +- 0.0069, c = -1.314 +- 0.088, a = 2.348;  chi2/dof = 7.6/3
+  WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [6.00,9.50]: b = 0.2157 +- 0.0157, c = -1.156 +- 0.225, a = 1.777;  chi2/dof = 7.0/2
 ====================================================================================================
 (k,d)=(5,3)  kappa=18  alpha=0.05   A_bin=1.5808 A_sharp=1/q=1.3940
   recomputed comparison exponents: mechanism 0.0556, ratio-binomial 0.1000, ratio-sharp 0.1217
@@ -99,3 +102,4 @@ Null calibration
   OLS (unweighted) whole grid: b = 0.1222
   WLS fit with log-prefactor -log def = a + b lam^2 + c log lam: b = 0.1370 +- 0.0047, c = -1.37
   WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [5.00,9.00]: b = 0.1525 +- 0.0090, c = -0.418 +- 0.113, a = 0.018;  chi2/dof = 2.6/2
+  WLS fit with a linear term -log def = a + b lam^2 + c lam on lam in [6.00,9.00]: b = 0.1239 +- 0.0214, c = 0.001 +- 0.305, a = -1.480;  chi2/dof = 0.4/1
