@@ -1,0 +1,5 @@
+(3,3) lambda_0 = 28.824789, rounded up 28.83, binding condition (e); (a) 19.499  (b) 4.106  (c) 13.418  (d) 13.681  (e) 28.825   (paper 28.83)
+(3,5) lambda_0 = 33.109065, rounded up 33.11, binding condition (e); (a) 19.499  (b) 6.158  (c) 15.702  (d) 16.708  (e) 33.109   (paper 33.11)
+(5,3) lambda_0 = 29.490188, rounded up 29.50, binding condition (e); (a) 19.499  (b) 4.497  (c) 14.824  (d) 14.738  (e) 29.490   (paper 29.50)
+(3,8) lambda_0 = 38.513576, rounded up 38.52, binding condition (e); (a) 19.499  (b) 10.777  (c) 18.357  (d) 20.548  (e) 38.514   (paper 38.52)
+(7,5) lambda_0 = 34.513507, rounded up 34.52, binding condition (e); (a) 19.499  (b) 6.983  (c) 17.965  (d) 18.528  (e) 34.514   (paper 34.52)

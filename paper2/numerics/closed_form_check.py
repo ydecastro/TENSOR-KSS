@@ -1,4 +1,4 @@
-"""Proposition 2 (prop:closed): the closed forms of G_r and H_r against high-precision quadrature, for random
+"""Proposition F.1 (prop:closed) of the Supplementary Material: the closed forms of G_r and H_r against high-precision quadrature, for random
 spectra at (k,d) = (3,5), (3,8), (5,6).
 """
 import mpmath as mp, numpy as np

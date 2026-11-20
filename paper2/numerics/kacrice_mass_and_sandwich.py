@@ -1,4 +1,10 @@
-"""Section 7, 'The power bound': the Kac-Rice mass delta^lambda(u_+; B_b0) and the power bound of Theorem 5
+"""Script of the version of 2026-10-26. In the version of 2026-11-18 the paper uses its Kac-Rice column of the
+estimation sandwich (Section 6, Theorem 4, thm:estim): 3.390e-3, 2.604e-2, 8.349e-4, 8.666e-4 and the share 3.8% of
+Phi(u - lambda) at lambda = 40, u = 36. Its lines "(ii) optimised" use the additive form 1 + beta*/(rho u) + r_N +
+eps_det of 1 + eps_A; the paper uses the product form of Lemma C.2, computed by estimation_sandwich.py. The power
+bound of Theorem 5 is not in the version of 2026-11-18.
+
+Section 7, 'The power bound': the Kac-Rice mass delta^lambda(u_+; B_b0) and the power bound of Theorem 5
 (thm:main) at the tuple of Remark 9 (rem:tuple); and the estimation sandwich at (3,5) of Section 7: the explicit
 upper bound of Theorem 6(ii) (thm:estim) and its direct Kac-Rice version.
 

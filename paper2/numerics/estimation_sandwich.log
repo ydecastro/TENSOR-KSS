@@ -1,0 +1,20 @@
+lam=20 u=16: lower=3.30584e-03 (0.99175 tgt) target=3.33333e-03  KR=3.39047e-03 (KR/tgt 1.01714, KR/lower-1 2.560%)  Phi(u-lam)/tgt=0.950%
+   explicit, product (Lemma C.2): 4.26141e-03 ratio 1.27842 at theta1=0.14490 hyp=True  [varrho=0.04795 beta*/(rho u)=0.05212 r_N=0.02153 eps_det=3.5e-10]
+   explicit, additive form (version of 2026-10-26): 4.25707e-03 ratio 1.27712 at theta1=0.14494
+   E|det|/E det: Rem_far 1.00040 (Rem_far 7.6383e-05); KR integral 1.00032
+   (paper: lower 3.306e-3, Kac-Rice 3.390e-3 (1.017), explicit 4.261e-3 (1.278); 2.6%)
+lam=20 u=18: lower=3.30584e-03 (0.99175 tgt) target=3.33333e-03  KR=2.60416e-02 (KR/tgt 7.81248, KR/lower-1 687.745%)  Phi(u-lam)/tgt=682.504%
+   explicit, product (Lemma C.2): 2.69521e-02 ratio 8.08564 at theta1=0.14473 hyp=True  [varrho=0.04785 beta*/(rho u)=0.04623 r_N=0.02153 eps_det=2.2e-14]
+   explicit, additive form (version of 2026-10-26): 2.69483e-02 ratio 8.08449 at theta1=0.14477
+   E|det|/E det: Rem_far 1.00040 (Rem_far 7.1616e-05); KR integral 1.00032
+   (paper: lower 3.306e-3, Kac-Rice 2.604e-2 (7.81), explicit 2.695e-2 (8.09))
+lam=40 u=34: lower=8.31602e-04 (0.99792 tgt) target=8.33333e-04  KR=8.34905e-04 (KR/tgt 1.00189, KR/lower-1 0.397%)  Phi(u-lam)/tgt=0.000%
+   explicit, product (Lemma C.2): 8.93427e-04 ratio 1.07211 at theta1=0.08034 hyp=True  [varrho=0.01496 beta*/(rho u)=0.01516 r_N=0.00511 eps_det=5.2e-73]
+   explicit, additive form (version of 2026-10-26): 8.93360e-04 ratio 1.07203 at theta1=0.08035
+   E|det|/E det: Rem_far 1.00014 (Rem_far 3.6392e-06); KR integral 1.00013
+   (paper: lower 8.316e-4, Kac-Rice 8.349e-4 (1.0019), explicit 8.934e-4 (1.072); 0.40%)
+lam=40 u=36: lower=8.31602e-04 (0.99792 tgt) target=8.33333e-04  KR=8.66552e-04 (KR/tgt 1.03986, KR/lower-1 4.203%)  Phi(u-lam)/tgt=3.801%
+   explicit, product (Lemma C.2): 9.24359e-04 ratio 1.10923 at theta1=0.08038 hyp=True  [varrho=0.01498 beta*/(rho u)=0.01433 r_N=0.00511 eps_det=3.5e-83]
+   explicit, additive form (version of 2026-10-26): 9.24295e-04 ratio 1.10915 at theta1=0.08039
+   E|det|/E det: Rem_far 1.00014 (Rem_far 3.6388e-06); KR integral 1.00013
+   (paper: lower 8.316e-4, Kac-Rice 8.666e-4 (1.0399), explicit 9.244e-4 (1.109); Phi costs 3.8%)

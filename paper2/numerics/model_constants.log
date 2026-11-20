@@ -1,0 +1,19 @@
+Section 6, the model constants
+  (3,3): m = 10, kappa = 7, nu = 9   (paper 10, 7, 9)
+  (3,5): m = 35, kappa = 30, nu = 34   (paper 35, 30, 34)
+  (3,8): m = 120, kappa = 112, nu = 119   (paper 120, 112, 119)
+  (5,6): m = 252, kappa = 246, nu = 251   (paper 252, 246, 251)
+Section 3.1, alpha^(-1/kappa) at alpha = 0.05
+  (3,3): kappa = 7, alpha^(-1/kappa) = 1.53413   (paper kappa = 7, 1.534)
+  (5,5): kappa = 121, alpha^(-1/kappa) = 1.02507   (paper kappa = 121, 1.025)
+Section 3.2, T_max = sqrt(kappa)/rho
+  (3,3): T_max = 3.0551   (paper 3.06)
+  (3,5): T_max = 6.3246   (paper 6.32)
+  (5,5): T_max = 13.9140   (paper 13.9)
+Section 3.2, c_alpha = (1-alpha)-quantile of chi^2 with 2d degrees of freedom, alpha = 0.05
+  d = 3: c_alpha = 12.5916   (paper 12.6)
+  d = 5: c_alpha = 18.3070   (paper 18.3)
+Remark 1, column S: rho^2/(2(1+rho^2)) = k/(2(3k-2))
+  k = 3: rho^2/(2(1+rho^2)) = 0.21429, k/(2(3k-2)) = 0.21429   (paper 0.2143)
+  k = 5: rho^2/(2(1+rho^2)) = 0.19231, k/(2(3k-2)) = 0.19231   (paper 0.1923)
+  k = 7: rho^2/(2(1+rho^2)) = 0.18421, k/(2(3k-2)) = 0.18421   (paper 0.1842)

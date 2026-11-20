@@ -1,4 +1,4 @@
-"""The level-map table of Section 7 with the draw of Omega used in the paper: numpy default_rng(3), one
+"""The level-map table of Section 6, paragraph "The price of knowing sigma", with the draw of Omega used in the paper: numpy default_rng(3), one
 symmetrised N(0,1) matrix (A+A^T)/2 per (k,d), drawn in the order (3,5), (3,8), (5,6); Omega = G/rho.
 """
 import numpy as np
@@ -14,7 +14,7 @@ def level(F, v, a):
     t = a * F(v)
     return mp.findroot(lambda u: mp.log(F(u) / t), (mp.mpf(v) + 1e-6, mp.mpf(v) + 8), solver='illinois')
 rng = np.random.default_rng(3)
-paper = {((3, 5), 0.05): (4.897, 5.486), ((3, 5), 0.01): (5.276, 6.171), ((3, 8), 0.05): (5.036, 5.202), ((5, 6), 0.05): (4.862, 4.923)}
+paper = {((3, 5), 0.05): (4.897, 5.486, 0.589), ((3, 5), 0.01): (5.276, 6.171, 0.896), ((3, 8), 0.05): (5.036, 5.202, 0.166), ((5, 6), 0.05): (4.862, 4.923, 0.061)}
 for k, d in ((3, 5), (3, 8), (5, 6)):
     N = d - 1; rho = sqrt(k / (2 * (k - 1))); m = comb(d + k - 1, k); kap = m - d; nu = m - 1
     A = rng.normal(size=(N, N)); A = (A + A.T) / 2; ev = np.linalg.eigvalsh(A) / rho
@@ -25,6 +25,6 @@ for k, d in ((3, 5), (3, 8), (5, 6)):
         if ((k, d), a) not in paper:
             continue
         uG = level(lambda l: Gr(l, e), v, a); uH = level(lambda l: Hr(l, e, kap, nu), v, a)
-        pG, pH = paper[((k, d), a)]
-        print(f"   alpha={a}: known {mp.nstr(uG,7)} (paper {pG})  t {mp.nstr(uH,7)} (paper {pH})  extra {mp.nstr(uH-uG,6)} (paper {pH-pG:+.3f})"
+        pG, pH, pX = paper[((k, d), a)]
+        print(f"   alpha={a}: known {mp.nstr(uG,7)} (paper {pG})  t {mp.nstr(uH,7)} (paper {pH})  extra {mp.nstr(uH-uG,6)} (paper {pX:+.3f})"
               f"  rel. extra {mp.nstr((uH-uG)/uG*100,4)}%")

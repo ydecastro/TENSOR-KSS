@@ -1,0 +1,72 @@
+== (k,d) = (3,3), alpha = 0.05: N = 2, m = 10, kappa = 7, rho^2 = 0.75, T_max = 3.0550504633038933377
+   arc (cos phi, sin phi), phi in [0, pi/4]: scan of 20001 points on [0, 0.785398]: 1 interior strict local maximum(s), 1 sign change(s) of the differences, smallest |difference| 2.39e-10; grid argmax x = 0.1029501503 (index 7241), U = 2.312190627732; U at the ends 2.305022242722, 2.138762873008
+   check: U at the maximiser with the Beta-form quadrature (80 digits) minus closed form: 8.29e-51
+   A      = 2.31219062777335697337750354227   (maximum over the arc)   (paper 2.312)
+   maximiser: spectrum/T_max = (0.994704501522, 0.10277623583)   (paper at (3,3): (0.995, 0.103))
+   E      = 0.0615134725661788288633932529954   (paper 0.0615)
+   column S of the table: rho^2/(2(1+rho^2)) = 0.21428571
+   [20 s]
+== (k,d) = (3,4), alpha = 0.05: N = 3, m = 20, kappa = 16, rho^2 = 0.75, T_max = 4.6188021535170061161
+   family (cos phi, sin phi/sqrt(N-1), ...), phi in [0, atan sqrt(N-1)]: scan of 20001 points on [0, 0.955317]: 1 interior strict local maximum(s), 1 sign change(s) of the differences, smallest |difference| 1.19e-10; grid argmax x = 0.04579702128 (index 4379), U = 1.542786223313; U at the ends 1.541644760671, 1.285286924914
+   A_bar, part a >= 1/sqrt 2: (cos psi, sin psi, ..., sin psi), psi in [0, pi/4]: scan of 20001 points on [0, 0.785398]: 1 interior strict local maximum(s), 2 sign change(s) of the differences, smallest |difference| 1.39e-10; grid argmax x = 0.06909270166 (index 5932), U = 1.544070024645; U at the ends 1.541644760671, 1.441957954417
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: scan of 20001 points on [0.57735, 0.707107]: 0 interior strict local maximum(s), 0 sign change(s) of the differences, smallest |difference| 7.59e-06; grid argmax x = 0.7071067812 (index 20000), U = 1.441957954417; U at the ends 1.285286924914, 1.441957954417
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: maximum at an end of the interval
+   A_bar attained at a = 0.997613801096143 (A_bar curve: max 1.54407002465189 on a >= 1/sqrt 2, 1.44195795441656 on a <= 1/sqrt 2)
+   whole-sphere search: best of 20000 random spectra U = 1.5427861841; best after Nelder-Mead U = 1.5427862233190 at spectrum/T_max [0.9989513 0.0323745 0.0323745]; at 50 digits 1.5427862233190041447; A_eq - best = 2.17e-17
+   check: U at the maximiser with the Beta-form quadrature (80 digits) minus closed form: 1.1e-51
+   A      = 1.54278622331900416638597307703   (A_eq, family (a,b,...,b))   (paper 1.543)
+   A_bar  = 1.54407002465189407797246112698   (A_bar - A_eq = 0.001284; paper 1.3e-3)
+   maximiser: spectrum/T_max = (0.998951341016, 0.0323745137546, ...)
+   E      = 0.119801060051732310101453927275   E(A_bar) = 0.119649580224903278066067673945   (paper 0.120)
+   column S of the table: rho^2/(2(1+rho^2)) = 0.21428571
+   [108 s]
+== (k,d) = (3,5), alpha = 0.05: N = 4, m = 35, kappa = 30, rho^2 = 0.75, T_max = 6.324555320336758664
+   family (cos phi, sin phi/sqrt(N-1), ...), phi in [0, atan sqrt(N-1)]: scan of 20001 points on [0, 1.0472]: 1 interior strict local maximum(s), 1 sign change(s) of the differences, smallest |difference| 5.53e-11; grid argmax x = 0.02046647083 (index 2796), U = 1.287318717280; U at the ends 1.287102468470, 0.957357727195
+   A_bar, part a >= 1/sqrt 2: (cos psi, sin psi, ..., sin psi), psi in [0, pi/4]: scan of 20001 points on [0, 0.785398]: 1 interior strict local maximum(s), 2 sign change(s) of the differences, smallest |difference| 8.40e-12; grid argmax x = 0.037239703 (index 4355), U = 1.287782699239; U at the ends 1.287102468470, 1.174783017556
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: scan of 20001 points on [0.5, 0.707107]: 0 interior strict local maximum(s), 0 sign change(s) of the differences, smallest |difference| 1.03e-05; grid argmax x = 0.7071067812 (index 20000), U = 1.174783017556; U at the ends 0.957357727195, 1.174783017556
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: maximum at an end of the interval
+   A_bar attained at a = 0.999306981970975 (A_bar curve: max 1.28778269927044 on a >= 1/sqrt 2, 1.17478301755558 on a <= 1/sqrt 2)
+   whole-sphere search: best of 20000 random spectra U = 1.2873153079; best after Nelder-Mead U = 1.2873187172811 at spectrum/T_max [0.9997906 0.0118149 0.0118149 0.0118149]; at 50 digits 1.2873187172810514812; A_eq - best = 9.16e-17
+   check: U at the maximiser with the Beta-form quadrature (80 digits) minus closed form: 2.72e-51
+   A      = 1.28731871728105157283071460863   (A_eq, family (a,b,...,b))   (paper 1.287)
+   A_bar  = 1.28778269927043709721409730748   (A_bar - A_eq = 0.000464; paper 4.6e-4)
+   maximiser: spectrum/T_max = (0.999790591363, 0.0118148694657, ...)
+   E      = 0.155783332860642751807912836834   E(A_bar) = 0.155706048669226214706257748046   (paper 0.156)
+   column S of the table: rho^2/(2(1+rho^2)) = 0.21428571
+   [138 s]
+== (k,d) = (5,3), alpha = 0.05: N = 2, m = 21, kappa = 18, rho^2 = 0.625, T_max = 5.3665631459994952714
+   arc (cos phi, sin phi), phi in [0, pi/4]: scan of 20001 points on [0, 0.785398]: 1 interior strict local maximum(s), 1 sign change(s) of the differences, smallest |difference| 5.10e-11; grid argmax x = 0.02318121529 (index 3436), U = 1.440287498430; U at the ends 1.439986746329, 1.213306515238
+   check: U at the maximiser with the Beta-form quadrature (80 digits) minus closed form: 3.94e-51
+   A      = 1.44028749843287118157507729976   (maximum over the arc)   (paper 1.440)
+   maximiser: spectrum/T_max = (0.999731279715, 0.0231812070113)
+   E      = 0.115765262475557335370674026547   (paper 0.1158)
+   column S of the table: rho^2/(2(1+rho^2)) = 0.19230769
+   [21 s]
+== (k,d) = (5,5), alpha = 0.05: N = 4, m = 126, kappa = 121, rho^2 = 0.625, T_max = 13.914021704740869061
+   family (cos phi, sin phi/sqrt(N-1), ...), phi in [0, atan sqrt(N-1)]: scan of 20001 points on [0, 1.0472]: 1 interior strict local maximum(s), 1 sign change(s) of the differences, smallest |difference| 1.17e-12; grid argmax x = 0.001368501322 (index 723), U = 1.064394174612; U at the ends 1.064393227391, 0.619505700840
+   A_bar, part a >= 1/sqrt 2: (cos psi, sin psi, ..., sin psi), psi in [0, pi/4]: scan of 20001 points on [0, 0.785398]: 1 interior strict local maximum(s), 2 sign change(s) of the differences, smallest |difference| 4.71e-12; grid argmax x = 0.002375829444 (index 1100), U = 1.064396077965; U at the ends 1.064393227391, 0.822065475805
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: scan of 20001 points on [0.5, 0.707107]: 0 interior strict local maximum(s), 0 sign change(s) of the differences, smallest |difference| 9.81e-06; grid argmax x = 0.7071067812 (index 20000), U = 0.822065475805; U at the ends 0.619505700840, 0.822065475805
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: maximum at an end of the interval
+   A_bar attained at a = 0.999997179681698 (A_bar curve: max 1.06439607796562 on a >= 1/sqrt 2, 0.822065475805223 on a <= 1/sqrt 2)
+   whole-sphere search: best of 20000 random spectra U = 1.0643941565; best after Nelder-Mead U = 1.0643941746130 at spectrum/T_max [9.9999907e-01 7.8918903e-04 7.8918031e-04 7.8917892e-04]; at 50 digits 1.0643941746130108022; A_eq - best = 6.75e-17
+   check: U at the maximiser with the Beta-form quadrature (80 digits) minus closed form: -2.45e-51
+   A      = 1.06439417461301086966389929551   (A_eq, family (a,b,...,b))   (paper 1.064)
+   A_bar  = 1.06439607796561840220599108323   (A_bar - A_eq = 1.903e-6; paper 1.9e-6)
+   maximiser: spectrum/T_max = (0.999999065774, 0.000789187688363, ...)
+   E      = 0.177765393656335063724032533654   E(A_bar) = 0.177764983928433425932834831914   (paper 0.1778)
+   column S of the table: rho^2/(2(1+rho^2)) = 0.19230769
+   [140 s]
+== (k,d) = (7,5), alpha = 0.05: N = 4, m = 330, kappa = 325, rho^2 = 0.583333333333, T_max = 23.603873774083294374
+   family (cos phi, sin phi/sqrt(N-1), ...), phi in [0, atan sqrt(N-1)]: scan of 20001 points on [0, 1.0472]: 1 interior strict local maximum(s), 1 sign change(s) of the differences, smallest |difference| 4.99e-13; grid argmax x = 0.000189440655 (index 269), U = 1.023207402584; U at the ends 1.023207384566, 0.545031338595
+   A_bar, part a >= 1/sqrt 2: (cos psi, sin psi, ..., sin psi), psi in [0, pi/4]: scan of 20001 points on [0, 0.785398]: 1 interior strict local maximum(s), 2 sign change(s) of the differences, smallest |difference| 5.01e-13; grid argmax x = 0.0003284554754 (index 409), U = 1.023207438643; U at the ends 1.023207384566, 0.749499528301
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: scan of 20001 points on [0.5, 0.707107]: 0 interior strict local maximum(s), 0 sign change(s) of the differences, smallest |difference| 1.01e-05; grid argmax x = 0.7071067812 (index 20000), U = 0.749499528301; U at the ends 0.545031338595, 0.749499528301
+   A_bar, part a <= 1/sqrt 2: (a, a, ..., a), a in [1/sqrt N, 1/sqrt 2]: maximum at an end of the interval
+   A_bar attained at a = 0.999999946219819 (A_bar curve: max 1.02320743864314 on a >= 1/sqrt 2, 0.749499528301121 on a <= 1/sqrt 2)
+   whole-sphere search: best of 20000 random spectra U = 1.0232074002; best after Nelder-Mead U = 1.0232074025837 at spectrum/T_max [9.9999998e-01 1.0928049e-04 1.0926910e-04 1.0926736e-04]; at 50 digits 1.0232074025837330287; A_eq - best = 5.42e-17
+   check: U at the maximiser with the Beta-form quadrature (80 digits) minus closed form: 1.28e-51
+   A      = 1.02320740258373308280919979463   (A_eq, family (a,b,...,b))   (paper 1.023)
+   A_bar  = 1.02320743864314106625234426283   (A_bar - A_eq = 3.606e-8; paper 3.6e-8)
+   maximiser: spectrum/T_max = (0.999999982089, 0.000109273714996, ...)
+   E      = 0.178905135350981888767193285358   E(A_bar) = 0.178905127253106959550614588832   (paper 0.1789)
+   column S of the table: rho^2/(2(1+rho^2)) = 0.18421053
+   [137 s]

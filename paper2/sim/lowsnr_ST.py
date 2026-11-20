@@ -1,11 +1,11 @@
-"""Section 6 (sec:low), table at (k,d) = (3,3): power of the t-spacing test T and of the known-variance spacing
+"""Section 5 (sec:low), table at (k,d) = (3,3): power of the t-spacing test T and of the known-variance spacing
 test S, alpha = 0.05, lambda in {0 (null calibration), 1.4, 1.6, 1.8, 2.0, 3.0, 5.0}.
 
 Uses the field simulation of this folder (spike_lib.py, mc.py): run_batch returns lambda_1 (lam1), the second
 maximum after the deflation check (lam2c), the eigenvalues of Omega (lminO, lmaxO; d = 3, so N = 2 and these
 are all of them), sigma_hat (sig) and log T (logTc, Beta form).
 
-The known-variance statistic is added from Proposition 2 (prop:closed), sigma = 1:
+The known-variance statistic is added from Proposition F.1 (prop:closed), sigma = 1:
     S = G_r(lambda_1) / G_r(lambda_2),  r = Omega,
     G_r(l) = sum_{j=0}^N (-1)^j e_j(r) I_{N-j}(l),  I_0 = 1-Phi, I_1 = phi, I_p = l^{p-1} phi(l) + (p-1) I_{p-2}.
 For N = 2: G_r(l) = (1 + e_2) (1-Phi(l)) + (l - e_1) phi(l). Cross-checked against quadrature below.

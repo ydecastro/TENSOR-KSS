@@ -1,0 +1,3 @@
+k = 3: E_0 = 1.656998 (closed form), 1.656998 (zero of the complexity); lambda_PWB = 1.5847, lambda_PWB/sqrt(2) = 1.1205; lambda_c = 1.2066   (paper: 1.657; 1.5847 and 1.1205, main paper 1.12; 1.2066, main paper 1.21)
+k = 5: E_0 = 1.887989 (closed form), 1.887989 (zero of the complexity); lambda_PWB = 2.0312, lambda_PWB/sqrt(2) = 1.4363; lambda_c = 1.5323
+k = 7: E_0 = 2.014953 (closed form), 2.014953 (zero of the complexity); lambda_PWB = 2.2631, lambda_PWB/sqrt(2) = 1.6003; lambda_c = 1.6951

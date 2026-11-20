@@ -1,0 +1,17 @@
+(3,3) alpha = 0.05, A = 2.31219062777: bound (eq:closed-nct) = 0.05 at lambda = 11.367558 (scipy nct cdf there: 0.0500000000); Gaussian form (eq:closed-chernoff) = 0.05 at lambda = 14.988232
+(3,3) alpha = 0.05, A = 2.31219062777: bound (eq:closed-nct) = 0.01 at lambda = 12.95207 (scipy nct cdf there: 0.0100000000); Gaussian form (eq:closed-chernoff) = 0.01 at lambda = 16.662086
+      (paper: 0.05 at 11.4)
+(3,3) known-variance bound (eq:Sclosed-nct), c_alpha = 12.591587: = 0.05 at lambda = 6.8297479   (paper 6.8)
+(3,3) simulated deficiency = 0.05 at lambda = 7.4570 (log-linear interpolation); ratio lambda(bound)/lambda(simulated) = 1.5244
+(3,3) simulated deficiency = 0.01 at lambda = 9.0024 (log-linear interpolation); ratio lambda(bound)/lambda(simulated) = 1.4387
+(3,5) alpha = 0.05, A = 1.28731871728: bound (eq:closed-nct) = 0.05 at lambda = 11.004914 (scipy nct cdf there: 0.0500000000); Gaussian form (eq:closed-chernoff) = 0.05 at lambda = 13.052737
+(3,5) alpha = 0.05, A = 1.28731871728: bound (eq:closed-nct) = 0.01 at lambda = 12.021097 (scipy nct cdf there: 0.0100000000); Gaussian form (eq:closed-chernoff) = 0.01 at lambda = 14.104559
+      (paper: 0.05 at 11.0, 0.01 at 12.0; Gaussian form 13.1 and 14.1)
+(3,5) known-variance bound (eq:Sclosed-nct), c_alpha = 18.307038: = 0.05 at lambda = 9.9548145   (paper 10.0)
+(3,5) simulated deficiency = 0.05 at lambda = 6.2357 (log-linear interpolation); ratio lambda(bound)/lambda(simulated) = 1.7648   (paper at (3,5): 6.2 and 7.2, ratio 1.7 to 1.8)
+(3,5) simulated deficiency = 0.01 at lambda = 7.1674 (log-linear interpolation); ratio lambda(bound)/lambda(simulated) = 1.6772   (paper at (3,5): 6.2 and 7.2, ratio 1.7 to 1.8)
+(5,3) alpha = 0.05, A = 1.44028749843: bound (eq:closed-nct) = 0.05 at lambda = 10.754854 (scipy nct cdf there: 0.0500000000); Gaussian form (eq:closed-chernoff) = 0.05 at lambda = 13.234504
+(5,3) alpha = 0.05, A = 1.44028749843: bound (eq:closed-nct) = 0.01 at lambda = 11.916804 (scipy nct cdf there: 0.0100000000); Gaussian form (eq:closed-chernoff) = 0.01 at lambda = 14.454654
+(5,3) known-variance bound (eq:Sclosed-nct), c_alpha = 12.591587: = 0.05 at lambda = 8.7121301
+(5,3) simulated deficiency = 0.05 at lambda = 6.0060 (log-linear interpolation); ratio lambda(bound)/lambda(simulated) = 1.7907
+(5,3) simulated deficiency = 0.01 at lambda = 7.0094 (log-linear interpolation); ratio lambda(bound)/lambda(simulated) = 1.7001

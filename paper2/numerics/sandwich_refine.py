@@ -1,4 +1,8 @@
-"""Section 7, the estimation sandwich at (3,5): continuous optimisation over theta_1 of the explicit bound of
+"""Script of the version of 2026-10-26. In the version of 2026-11-18 the paper uses its last two lines (the bracket
+of the Bayes risk within 2.6% at lambda = 20 and 0.40% at lambda = 40, Section 6, "The estimation sandwich"). Its
+lines on the explicit bound use the additive form of 1 + eps_A; see estimation_sandwich.py for the printed values.
+
+Section 7, the estimation sandwich at (3,5): continuous optimisation over theta_1 of the explicit bound of
 Theorem 6(ii) (thm:estim), and the widths of the bracket quoted in the text. Reuses the functions of
 kacrice_mass_and_sandwich.py.
 """

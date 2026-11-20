@@ -1,4 +1,4 @@
-"""Section 6 (sec:low): the studentised quadratic statistic at (k,d) = (3,3).
+"""Section 5 (sec:low): the studentised quadratic statistic at (k,d) = (3,3).
 Model in R^m, m = 10: Y ~ N(lam psi_e, sigma^2 I). Q_1 = |P_1 Y|^2 ~ sigma^2 chi2_3(lam^2 mu_1 n_1/sigma^2),
 Q_3 = |P_3 Y|^2 ~ sigma^2 chi2_7(lam^2 mu_3 n_3/sigma^2), independent; mu_1 = 1/5, mu_3 = 2/35.
 T_q = mu_1 Q_1 + mu_3 Q_3; the invariant statistic T_q/(Q_1+Q_3) is increasing in Q_1/Q_3, and

@@ -1,0 +1,33 @@
+distinct Cfg in the records: {'{"SD": 40, "SH": 40, "SZ": 40, "alpha": 0.05, "itD": 80, "itH": 120, "itH_polish": 300, "itZ": 80, "n_other": 6, "n_polish": 4}'}
+seeds: [777]  nrep per record / lam:
+  (3, 3, 0.0): n=1000000 records=1 fail=949925 checked=20000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=673s
+  (3, 3, 6.0): n=20000 records=1 fail=3654 checked=0 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=8s
+  (3, 3, 7.0): n=50000 records=1 fail=3955 checked=1000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=22s
+  (3, 3, 8.0): n=100000 records=1 fail=2899 checked=2000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=47s
+  (3, 3, 9.0): n=100000 records=1 fail=1003 checked=2000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=42s
+  (3, 3, 10.0): n=500000 records=1 fail=1420 checked=10000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=248s
+  (3, 3, 12.0): n=1000000 records=1 fail=157 checked=20000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=740s
+  (3, 4, 0.0): n=1000000 records=1 fail=950057 checked=20000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=2 lam2>lam1=0 wall=815s
+  (3, 4, 5.0): n=50000 records=1 fail=12525 checked=1000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=41s
+  (3, 4, 6.0): n=50000 records=1 fail=4326 checked=1000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=41s
+  (3, 4, 7.0): n=100000 records=1 fail=2210 checked=2000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=84s
+  (3, 4, 8.0): n=300000 records=1 fail=1203 checked=6000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=248s
+  (3, 4, 9.0): n=1000000 records=1 fail=575 checked=20000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=817s
+  (3, 4, 10.0): n=2000000 records=1 fail=122 checked=40000 lam1 changed=0 lam2 up=1 decision changes=0 Z restarts=0 lam2>lam1=0 wall=1619s
+  (3, 5, 0.0): n=1000000 records=1 fail=950103 checked=20000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=9 lam2>lam1=0 wall=748s
+  (3, 5, 5.0): n=50000 records=1 fail=11884 checked=1000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=37s
+  (3, 5, 6.0): n=50000 records=1 fail=3702 checked=1000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=38s
+  (3, 5, 7.0): n=100000 records=1 fail=1400 checked=2000 lam1 changed=0 lam2 up=1 decision changes=0 Z restarts=0 lam2>lam1=0 wall=68s
+  (3, 5, 8.0): n=300000 records=1 fail=563 checked=6000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=205s
+  (3, 5, 9.0): n=1000000 records=1 fail=120 checked=20000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=686s
+  (3, 5, 9.5): n=2000000 records=1 fail=78 checked=40000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=1345s
+  (5, 3, 0.0): n=1000000 records=1 fail=949525 checked=20000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=212 lam2>lam1=1 wall=988s
+  (5, 3, 5.0): n=50000 records=1 fail=8742 checked=1000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=45s
+  (5, 3, 6.0): n=50000 records=1 fail=2524 checked=1000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=44s
+  (5, 3, 7.0): n=100000 records=1 fail=1018 checked=2000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=87s
+  (5, 3, 8.0): n=200000 records=1 fail=305 checked=4000 lam1 changed=0 lam2 up=0 decision changes=0 Z restarts=0 lam2>lam1=0 wall=172s
+  (5, 3, 9.0): n=800000 records=1 fail=156 checked=16000 lam1 changed=0 lam2 up=1 decision changes=0 Z restarts=0 lam2>lam1=0 wall=675s
+TOTAL null: n=4000000, checked=80000 (2.00%), lam1 changed=0, lam2 up=0, decision changes=0, Z restarts=223, lam2>lam1=1, not local max=0, wall=0.9 h
+TOTAL alt: n=9970000, checked=199000 (2.00%), lam1 changed=0, lam2 up=3, decision changes=0, Z restarts=0, lam2>lam1=0, not local max=0, wall=2.0 h
+under the alternatives: 23 points, from 20000 to 2000000 replicates per point, 9970000 in all; smallest number of failures at a point 78; rechecked replicates (null and alternatives) 279000
+(paper: 2e4 to 2e6 per point, 1.0e7 in all, at least 78 failures; lambda_2 rose 3 times in 279 000 rechecked replicates, lambda_1 never changed, no decision changed)

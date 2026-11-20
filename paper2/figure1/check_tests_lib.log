@@ -1,0 +1,38 @@
+(3,3) degrees [1, 3] n_j [3, 7] mu [0.2        0.05714286] Funk-Hecke [0.2        0.05714286] sum mu n = 1.000000000000  max|diff| 5.55e-17
+   Z by features vs tensor: max|diff| 8.88e-16
+(3,5) degrees [1, 3] n_j [5, 30] mu [0.08571429 0.01904762] Funk-Hecke [0.08571429 0.01904762] sum mu n = 1.000000000000  max|diff| 1.04e-17
+   Z by features vs tensor: max|diff| 1.78e-15
+(3,8) degrees [1, 3] n_j [8, 112] mu [0.0375  0.00625] Funk-Hecke [0.0375  0.00625] sum mu n = 1.000000000000  max|diff| 1.73e-18
+   Z by features vs tensor: max|diff| 2.66e-15
+(5,3) degrees [1, 3, 5] n_j [3, 7, 11] mu [0.14285714 0.06349206 0.01154401] Funk-Hecke [0.14285714 0.06349206 0.01154401] sum mu n = 1.000000000000  max|diff| 5.55e-17
+   Z by features vs tensor: max|diff| 1.07e-14
+log_I m=10 c=-5.0: GH -4.8950271265 quad -4.8950327058 diff 5.58e-06
+log_I m=10 c=0.0: GH 5.9506426270 quad 5.9506425526 diff 7.44e-08
+log_I m=10 c=3.0: GH 17.7521899406 quad 17.7521899406 diff 8.37e-12
+log_I m=10 c=20.0: GH 227.9688898336 quad 227.9688898336 diff 0.00e+00
+log_I m=10 c=60.0: GH 1837.7780188283 quad 1837.7780188283 diff 0.00e+00
+log_I m=35 c=-5.0: GH 19.4927820699 quad 19.4927820698 diff 3.07e-11
+log_I m=35 c=0.0: GH 43.5180433752 quad 43.5180433752 diff -4.97e-14
+log_I m=35 c=3.0: GH 63.5638172540 quad 63.5638172540 diff 7.11e-15
+log_I m=35 c=20.0: GH 304.0754829548 quad 304.0754829548 diff -5.68e-14
+log_I m=35 c=60.0: GH 1940.2811006839 quad 1940.2811006839 diff 0.00e+00
+log_I m=120 c=-5.0: GH 176.5357392863 quad 176.5357392863 diff -2.84e-14
+log_I m=120 c=0.0: GH 225.4295125145 quad 225.4295125145 diff 5.68e-14
+log_I m=120 c=3.0: GH 260.5724299010 quad 260.5724299010 diff -5.68e-14
+log_I m=120 c=20.0: GH 571.4007512227 quad 571.4007512227 diff 1.14e-13
+log_I m=120 c=60.0: GH 2290.0357970604 quad 2249.4896054536 diff 4.05e+01
+log_M d=3 kappa=0.5: bessel 0.04132485 quad 0.04132485 | sampler mean w 0.16372 vs A_d 0.16395 (se 0.00126)
+log_M d=3 kappa=10.0: bessel 7.00426772 quad 7.00426772 | sampler mean w 0.89964 vs A_d 0.90000 (se 0.00022)
+log_M d=3 kappa=100.0: bessel 94.70168263 quad 94.70168263 | sampler mean w 0.99003 vs A_d 0.99000 (se 0.00002)
+log_M d=3 kappa=300.0: bessel 293.60307034 quad 293.60307034 | sampler mean w 0.99666 vs A_d 0.99667 (se 0.00001)
+log_M d=8 kappa=0.5: bessel 0.01560067 quad 0.01560067 | sampler mean w 0.06128 vs A_d 0.06231 (se 0.00078)
+log_M d=8 kappa=10.0: bessel 4.43559435 quad 4.43559435 | sampler mean w 0.69693 vs A_d 0.69751 (se 0.00036)
+log_M d=8 kappa=100.0: bessel 86.79019914 quad 86.79019914 | sampler mean w 0.96549 vs A_d 0.96544 (se 0.00004)
+log_M d=8 kappa=300.0: bessel 282.97441622 quad 282.97441622 | sampler mean w 0.98837 vs A_d 0.98838 (se 0.00001)
+y_rot[e_index] vs lam1: max|diff| 2.66e-15; Z(U w) check: 1.33e-15
+oracle noise sim lam=0.0 test lam=3.0: kappas [ 0.  30.7 26.9] sd(logR1-logR2) 0.3224  sd(logR1-logR3) 0.2668  spread sd(logR) 0.617  mean logR -0.197
+oracle noise sim lam=0.0 test lam=6.0: kappas [  0.   64.  107.6] sd(logR1-logR2) 0.5795  sd(logR1-logR3) 0.4376  spread sd(logR) 1.997  mean logR -3.693
+oracle noise sim lam=0.0 test lam=10.0: kappas [  0.  112.6 299.1] sd(logR1-logR2) 0.6059  sd(logR1-logR3) 0.4410  spread sd(logR) 3.930  mean logR -18.834
+oracle noise sim lam=6.0 test lam=3.0: kappas [ 0.  30.7 26.9] sd(logR1-logR2) 0.1022  sd(logR1-logR3) 0.0859  spread sd(logR) 1.543  mean logR 3.022
+oracle noise sim lam=6.0 test lam=6.0: kappas [  0.   64.  107.6] sd(logR1-logR2) 0.0930  sd(logR1-logR3) 0.0781  spread sd(logR) 4.064  mean logR 6.074
+oracle noise sim lam=6.0 test lam=10.0: kappas [  0.  112.6 299.1] sd(logR1-logR2) 0.0743  sd(logR1-logR3) 0.0513  spread sd(logR) 7.850  mean logR 0.153

@@ -1,0 +1,4 @@
+lambda =  5: lower bound R = 4.722279e-02, (d-1)/(k lambda^2) = 5.333333e-02, ratio 88.54%   (paper 0.0472, 88.54%)
+lambda = 10: lower bound R = 1.290658e-02, (d-1)/(k lambda^2) = 1.333333e-02, ratio 96.80%   (paper 0.01291, 96.80%)
+lambda = 20: lower bound R = 3.305842e-03, (d-1)/(k lambda^2) = 3.333333e-03, ratio 99.18%   (paper 0.003306, 99.18%)
+lambda = 40: lower bound R = 8.316017e-04, (d-1)/(k lambda^2) = 8.333333e-04, ratio 99.79%   (paper 0.000832, 99.79%)

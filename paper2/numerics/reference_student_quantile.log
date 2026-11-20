@@ -1,0 +1,5 @@
+(3,5) m = 35, kappa = 30, nu = 34: Gaussian 0.95-quantile 1.64485; gamma t_nu 0.95-quantile 1.58835 (-3.44%)   (paper: 3.4% below at (3,5))
+(3,3) m = 10, kappa = 7, nu = 9: Gaussian 0.95-quantile 1.64485; gamma t_nu 0.95-quantile 1.61665 (-1.71%)
+(3,8) m = 120, kappa = 112, nu = 119: Gaussian 0.95-quantile 1.64485; gamma t_nu 0.95-quantile 1.60826 (-2.22%)
+(5,6) m = 252, kappa = 246, nu = 251: Gaussian 0.95-quantile 1.64485; gamma t_nu 0.95-quantile 1.63442 (-0.63%)
+(3,5): the upper tail of gamma t_nu is above the Gaussian one only for u > 2.6999   (paper: beyond u = 2.7)

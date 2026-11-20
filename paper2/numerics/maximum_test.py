@@ -1,4 +1,4 @@
-"""Section 6 (sec:low): Monte Carlo of the maximum test at (k,d) = (3,3). Field X(t) = sum_{|a|=3} sqrt(3!/a!) g_a t^a
+"""Section 5 (sec:low): Monte Carlo of the maximum test at (k,d) = (3,3). Field X(t) = sum_{|a|=3} sqrt(3!/a!) g_a t^a
 on S^2 (Cov = <s,t>^3); sup found by a Fibonacci grid (10^4 points) followed by 4 Riemannian Newton steps from
 the grid argmax. T_q = int X^2 dsigma computed exactly as g^T M g. Outputs: u_alpha, C_max =
 Cov_0(1{sup X>u_alpha},T_q)/2, efficiency against the exact C_opt, power of the maximum test on a lambda grid

@@ -1,5 +1,5 @@
 """How typical is the draw of level_map_draw.py: percentiles of the two level maps and of the extra level over
-3000 GOE draws (closed forms of Proposition 2), alpha = 0.05 and 0.01, v = 4.
+3000 GOE draws (closed forms of Proposition F.1), alpha = 0.05 and 0.01, v = 4.
 """
 import numpy as np
 from math import comb, sqrt, gamma, pi

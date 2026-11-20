@@ -1,0 +1,3 @@
+lam=4.0: base: thr 1.071 power 0.4527 | 4x: thr 1.043 power 0.4617 | mid: thr 1.035 power 0.4617 | studmax power 0.4503 | T power 0.3703
+lam=6.0: base: thr -0.199 power 0.9393 | 4x: thr -0.219 power 0.9393 | mid: thr -0.284 power 0.9413 | studmax power 0.9393 | T power 0.8943
+lam=8.0: base: thr -4.552 power 0.9993 | 4x: thr -4.527 power 0.9993 | mid: thr -4.537 power 0.9993 | studmax power 0.9997 | T power 0.9993

@@ -1,0 +1,47 @@
+== (k,d) = (3, 3): E = 0.061513
+   lambda  n         fail  deficiency  CP 95%                    -log(p)/lambda^2  vs E   p/exp(-E lambda^2) [CP]
+     6.0     20000    3654  1.8270e-01  [1.774e-01, 1.881e-01]   0.04722           below    1.673 [1.624, 1.723]
+     7.0     50000    3955  7.9100e-02  [7.675e-02, 8.150e-02]   0.05178           below    1.611 [1.564, 1.660]
+     8.0    100000    2899  2.8990e-02  [2.796e-02, 3.005e-02]   0.05533           below    1.486 [1.433, 1.540]
+     9.0    100000    1003  1.0030e-02  [9.422e-03, 1.067e-02]   0.05682           below    1.463 [1.374, 1.556]
+    10.0    500000    1420  2.8400e-03  [2.694e-03, 2.991e-03]   0.05864           below    1.333 [1.265, 1.404]
+    12.0   1000000     157  1.5700e-04  [1.334e-04, 1.836e-04]   0.06083           below    1.104 [0.938, 1.290]
+   WLS slope of -log p on lambda^2 over [6, 12]: 0.0651 +- 0.0004;  (slope - E)/E = +5.9%
+   printed slope 0.065 +- 0.002: (slope - E)/E = +5.7%, (slope - E)/uncertainty = +1.7   (paper: 6% above)
+   max over the table of -log(p)/lambda^2 = 0.06083 (E = 0.06151); all below E: True
+== (k,d) = (3, 4): E = 0.119801
+   lambda  n         fail  deficiency  CP 95%                    -log(p)/lambda^2  vs E   p/exp(-E lambda^2) [CP]
+     5.0     50000   12525  2.5050e-01  [2.467e-01, 2.543e-01]   0.05537           below    5.006 [4.931, 5.083]
+     6.0     50000    4326  8.6520e-02  [8.407e-02, 8.902e-02]   0.06798           below    6.459 [6.276, 6.645]
+     7.0    100000    2210  2.2100e-02  [2.120e-02, 2.303e-02]   0.07780           below    7.831 [7.511, 8.160]
+     8.0    300000    1203  4.0100e-03  [3.787e-03, 4.243e-03]   0.08623           below    8.570 [8.094, 9.068]
+     9.0   1000000     575  5.7500e-04  [5.290e-04, 6.240e-04]   0.09211           below    9.419 [8.665, 10.221]
+    10.0   2000000     122  6.1000e-05  [5.066e-05, 7.283e-05]   0.09705           below    9.732 [8.082, 11.621]
+   WLS slope of -log p on lambda^2 over [6, 10]: 0.1111 +- 0.0007;  (slope - E)/E = -7.2%
+   WLS slope of -log p on lambda^2 over [7, 10]: 0.1145 +- 0.0012;  (slope - E)/E = -4.4%
+   printed slope 0.115 +- 0.012: (slope - E)/E = -4.0%, (slope - E)/uncertainty = -0.4   (paper: within its error)
+   max over the table of -log(p)/lambda^2 = 0.09705 (E = 0.11980); all below E: True
+== (k,d) = (3, 5): E = 0.155783
+   lambda  n         fail  deficiency  CP 95%                    -log(p)/lambda^2  vs E   p/exp(-E lambda^2) [CP]
+     5.0     50000   11884  2.3768e-01  [2.340e-01, 2.414e-01]   0.05747           below   11.679 [11.495, 11.863]
+     6.0     50000    3702  7.4040e-02  [7.176e-02, 7.637e-02]   0.07231           below   20.187 [19.566, 20.822]
+     7.0    100000    1400  1.4000e-02  [1.328e-02, 1.475e-02]   0.08712           below   28.924 [27.439, 30.469]
+     8.0    300000     563  1.8767e-03  [1.725e-03, 2.038e-03]   0.09810           below   40.120 [36.877, 43.572]
+     9.0   1000000     120  1.2000e-04  [9.949e-05, 1.435e-04]   0.11146           below   36.250 [30.055, 43.345]
+     9.5   2000000      78  3.9000e-05  [3.083e-05, 4.867e-05]   0.11249           below   49.774 [39.345, 62.120]
+   WLS slope of -log p on lambda^2 over [6, 9.5]: 0.1355 +- 0.0011;  (slope - E)/E = -13.0%
+   WLS slope of -log p on lambda^2 over [7, 9.5]: 0.1426 +- 0.0019;  (slope - E)/E = -8.4%
+   WLS slope of -log p on lambda^2 over [8, 9.5]: 0.1526 +- 0.0039;  (slope - E)/E = -2.0%
+   printed slope 0.14 +- 0.01: (slope - E)/E = -10.1%, (slope - E)/uncertainty = -1.6   (paper: 10% below)
+   max over the table of -log(p)/lambda^2 = 0.11249 (E = 0.15578); all below E: True
+== (k,d) = (5, 3): E = 0.115765
+   lambda  n         fail  deficiency  CP 95%                    -log(p)/lambda^2  vs E   p/exp(-E lambda^2) [CP]
+     5.0     50000    8742  1.7484e-01  [1.715e-01, 1.782e-01]   0.06976           below    3.159 [3.099, 3.220]
+     6.0     50000    2524  5.0480e-02  [4.858e-02, 5.244e-02]   0.08295           below    3.259 [3.136, 3.385]
+     7.0    100000    1018  1.0180e-02  [9.567e-03, 1.082e-02]   0.09362           below    2.960 [2.782, 3.146]
+     8.0    200000     305  1.5250e-03  [1.359e-03, 1.706e-03]   0.10134           below    2.517 [2.243, 2.816]
+     9.0    800000     156  1.9500e-04  [1.656e-04, 2.281e-04]   0.10546           below    2.304 [1.956, 2.695]
+   WLS slope of -log p on lambda^2 over [6, 9]: 0.1239 +- 0.0014;  (slope - E)/E = +7.1%
+   printed slope 0.124 +- 0.003: (slope - E)/E = +7.1%, (slope - E)/uncertainty = +2.7   (paper: 7% above, 2.7 times the uncertainty)
+   max over the table of -log(p)/lambda^2 = 0.10546 (E = 0.11577); all below E: True
+(paper, (3,3): the deficiency exceeds exp(-E lambda^2) by a factor 1.7 at lambda = 6 and 1.1 at lambda = 12)

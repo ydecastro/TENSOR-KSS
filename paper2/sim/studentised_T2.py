@@ -1,4 +1,4 @@
-"""Section 7, the studentised second maximum: T2 = lambda_2/sigma_hat <= sqrt(kappa)/rho on every replicate of the
+"""Section 3.2, after Lemma 5 (lem:T2sharp): T2 = lambda_2/sigma_hat <= sqrt(kappa)/rho on every replicate of the
 field simulation, and the laws of T2, lmax(Omega)/lambda_2 and lambda_1 on the replicates where the test fails.
 Reads the raw files written by run_point.py (seed 777); set RAW to their folder (default ./raw).
 """

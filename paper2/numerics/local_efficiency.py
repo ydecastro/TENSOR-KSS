@@ -1,4 +1,4 @@
-"""Section 6 (sec:low) and the local-efficiency table of Section 7, at (k,d) = (3,3).
+"""Section 5 (sec:low) and the local-efficiency table of Section 6, at (k,d) = (3,3).
 
 The field X(t) = sum_{|a|=3} sqrt(3!/a!) g_a t^a (Cov = <s,t>^3) is evaluated on a Fibonacci grid of 40 000 points
 of S^2, with 2e5 replicates (seed 7); sup X is the grid maximum and T_q = int X^2 dsigma is the mean of X^2 over

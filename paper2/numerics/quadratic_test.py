@@ -1,8 +1,8 @@
-"""Section 6 (sec:low), exact parts.
+"""Section 5 (sec:low), exact parts.
  - Funk-Hecke eigenvalues mu_j (numerical Gegenbauer integral), n_j, and the checks
    sum mu_j n_j = 1 and sum mu_j^2 n_j = E T_cor^{2k} = (2k-1)!!/prod_{i<k}(d+2i);
  - null law of the quadratic statistic T_q at (3,3): quantiles t_alpha and C_opt = (E[T_q;T_q>t_alpha]-alpha)/2
-   (local-efficiency table of Section 7);
+   (local-efficiency table of Section 6);
  - power of the quadratic test, T_q = sum mu_j chi2_{n_j}(lam^2 mu_j n_j), exact (Imhof inversion).
 Saves quadpower.npy, used by maximum_test.py and ftest.py.
 """
@@ -61,7 +61,7 @@ def sf_null_conv(x):
     return a + stats.chi2.sf(x / 0.2, 3)
 print("\ncheck Imhof vs convolution at x=2:", mp.nstr(imhof_sf(2, w, n, [0, 0]), 12), sf_null_conv(2.0))
 
-print("\n=== null quantiles t_alpha and C_opt at (3,3) (local-efficiency table, Section 7) ===")
+print("\n=== null quantiles t_alpha and C_opt at (3,3) (local-efficiency table, Section 6) ===")
 res = {}
 for alpha in [0.05, 0.01]:
     t = optimize.brentq(lambda x: sf_null_conv(x) - alpha, 0.5, 6, xtol=1e-14)
@@ -80,7 +80,7 @@ for alpha in [0.05, 0.01]:
     t = res[alpha][0]
     print(f"  MC: P(T>t)={np.mean(T>t):.5f}, C_opt MC = {0.5*(np.mean(T*(T>t))-alpha):.5e}")
 
-print("\n=== power of the quadratic test (non-central mixture, Section 6) ===")
+print("\n=== power of the quadratic test (non-central mixture, Section 5) ===")
 lams = [1.2, 1.3, 1.4, 1.45, 1.5, 1.55, 1.6, 1.65, 1.7, 1.75, 1.8, 2.0, 3.0, 5.0]
 powq = {}
 for alpha in [0.05, 0.01]:

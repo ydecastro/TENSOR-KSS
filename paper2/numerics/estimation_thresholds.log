@@ -1,0 +1,33 @@
+(3, 3): explicit bound / target decreasing on the grid: True
+   explicit / target < 2 from lambda = 11.4
+   explicit / target < 1.5 from lambda = 12.7
+   explicit / target < 1.1 from lambda = 26.0
+   (paper: within a factor 2 from lambda about 11, within 10% from about 26)
+   lambda = 10.0: explicit / target =   3.935; excess over the target: varrho 0.341, r_N 0.039, beta*/(rho u) 0.127, eps_det 1.211, Rem_far 0.462, Phi(u-lam) 0.754
+   lambda = 20.0: explicit / target =   1.164; excess over the target: varrho 0.092, r_N 0.006, beta*/(rho u) 0.050, eps_det 0.000, Rem_far 0.015, Phi(u-lam) 0.001
+   Kac-Rice (E|det|) / lower bound (i): lambda = 5: 3.2523, lambda = 8: 1.1069, lambda = 9: 1.0619, lambda = 10: 1.0460, lambda = 12: 1.0311, lambda = 15: 1.0197; within 10% from lambda = 8.2
+(3, 5): explicit bound / target decreasing on the grid: True
+   explicit / target < 2 from lambda = 13.3
+   explicit / target < 1.5 from lambda = 15.2
+   explicit / target < 1.1 from lambda = 33.5
+   (paper: within a factor 2 from lambda about 13, within 10% from about 34)
+   lambda = 10.0: explicit / target =  12.477; excess over the target: varrho 0.811, r_N 0.264, beta*/(rho u) 0.117, eps_det 4.264, Rem_far 1.903, Phi(u-lam) 4.119
+   lambda = 20.0: explicit / target =   1.272; excess over the target: varrho 0.164, r_N 0.024, beta*/(rho u) 0.059, eps_det 0.000, Rem_far 0.024, Phi(u-lam) 0.001
+   Kac-Rice (E|det|) / lower bound (i): lambda = 5: 4.6254, lambda = 8: 1.1936, lambda = 9: 1.0990, lambda = 10: 1.0699, lambda = 12: 1.0465, lambda = 15: 1.0293; within 10% from lambda = 9.0
+(5, 3): explicit bound / target decreasing on the grid: True
+   explicit / target < 2 from lambda = 12.6
+   explicit / target < 1.5 from lambda = 13.9
+   explicit / target < 1.1 from lambda = 28.4
+   (paper: within a factor 2 from lambda about 13, within 10% from about 28)
+   lambda = 10.0: explicit / target =   7.423; excess over the target: varrho 0.511, r_N 0.055, beta*/(rho u) 0.148, eps_det 3.118, Rem_far 1.054, Phi(u-lam) 1.537
+   lambda = 20.0: explicit / target =   1.196; excess over the target: varrho 0.109, r_N 0.006, beta*/(rho u) 0.064, eps_det 0.000, Rem_far 0.017, Phi(u-lam) 0.001
+   Kac-Rice (E|det|) / lower bound (i): lambda = 5: 6.1030, lambda = 8: 1.1650, lambda = 9: 1.0707, lambda = 10: 1.0465, lambda = 12: 1.0305, lambda = 15: 1.0192; within 10% from lambda = 8.7
+(3, 8): explicit bound / target decreasing on the grid: True
+   explicit / target < 2 from lambda = 15.9
+   explicit / target < 1.5 from lambda = 20.2
+   explicit / target < 1.1 from lambda = 44.8
+   (paper: within a factor 2 from lambda about 16, within 10% from about 45)
+   lambda = 10.0: explicit / target =  46.261; excess over the target: varrho 1.359, r_N 1.462, beta*/(rho u) 0.068, eps_det 12.761, Rem_far 13.937, Phi(u-lam) 15.674
+   lambda = 20.0: explicit / target =   1.509; excess over the target: varrho 0.312, r_N 0.080, beta*/(rho u) 0.073, eps_det 0.000, Rem_far 0.043, Phi(u-lam) 0.001
+   Kac-Rice (E|det|) / lower bound (i): lambda = 5: 7.0744, lambda = 8: 1.4337, lambda = 9: 1.1803, lambda = 10: 1.1079, lambda = 12: 1.0679, lambda = 15: 1.0423; within 10% from lambda = 10.4
+(paper: at lambda = 10 the explicit bound is 4 to 46 times the target; the Kac-Rice bound is within 10% of the lower bound from lambda about 9, and 10.4 at (3,8))

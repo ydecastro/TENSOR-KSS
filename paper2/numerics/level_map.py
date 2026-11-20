@@ -1,5 +1,9 @@
-"""Section 7, the price of knowing sigma (and the introduction): level maps u_alpha(r) = G_r^{-1}(alpha G_r(v))
-for the known-variance test and H_r^{-1}(alpha H_r(v)) for the t-test, from the closed forms of Proposition 2.
+"""Section 6, paragraph "The price of knowing sigma": level maps u_alpha(r) = G_r^{-1}(alpha G_r(v))
+for the known-variance test and H_r^{-1}(alpha H_r(v)) for the t-test, from the closed forms of Proposition F.1.
+The line used by the paper is the last one of the block on the single-quantile inflation: gamma t_{m-1}/z - 1
+= -0.0344 at (3,5) (paper: 3.4% below); reference_student_quantile.py gives the same value. The lines marked
+'paper' in the block 'Omega = 0' compare with the table of the paper, which is computed for one draw of Omega
+(level_map_draw.py), not for Omega = 0.
 """
 import numpy as np
 from math import comb, sqrt

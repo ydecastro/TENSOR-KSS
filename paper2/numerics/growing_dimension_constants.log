@@ -1,0 +1,12 @@
+k = 3:
+   Upsilon_k = 2.2143197433775351874 at theta = 0.603232086555336 (interior local maxima of g_k on the grid: [(0.603232, 2.21432), (1.953921, 1.675131)]; limit at 0 is k-1 = 2)   (paper 2.214)
+   v_k = 7.29941591487052, l_k = 6.92820323027551
+   C_k = 7.7036894827915281895 (residual 4.59e-41)   (paper 7.70)
+k = 5:
+   Upsilon_k = 5.6860899764591097691 at theta = 0.660087333283137 (interior local maxima of g_k on the grid: [(0.660091, 5.68609), (2.181122, 4.457887)]; limit at 0 is k-1 = 4)
+   v_k = 21.6587556235419, l_k = 17.8885438199983
+   C_k = 21.739496181174324628 (residual 3.44e-40)   (paper 21.74)
+k = 7:
+   Upsilon_k = 11.777379621661732719 at theta = 0.709423275374144 (interior local maxima of g_k on the grid: [(0.709426, 11.77738), (2.27029, 10.132878)]; limit at 0 is k-1 = 6)
+   v_k = 47.0345254413045, l_k = 31.7490157327751
+   C_k = 47.05842701153890064 (residual 2.23e-39)   (paper 47.06)

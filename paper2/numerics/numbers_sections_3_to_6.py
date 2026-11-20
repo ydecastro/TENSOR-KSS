@@ -1,4 +1,7 @@
-"""Recomputation of numbers of Sections 3 to 6.
+"""Recomputation of numbers of Sections 3 to 6 of the version of 2026-10-26 (statement numbers of that version).
+In the version of 2026-11-18 the paper uses part 4 (the F-test of Section 5: C_F = 1.54e-2, 42% and 52%, powers
+0.100 and 0.191), the last line of part 5 (S within 1e-3 of the quadratic test at lambda = 5, Section 5) and part 6
+(T_max = 3.06, 6.32, 13.9 after Lemma 5); parts 1 to 3 concern statements that the paper no longer contains.
 
 1. Lemma 22 (lem:Phibounds) and Remark 21 (rem:Estar): A, E = I(1), D_A, c_near, c_far, K(c_far)/2,
    K(c_near)/2, w_1, the minimum of I on a grid, and a direct check of the lemma on a grid, at the six pairs.

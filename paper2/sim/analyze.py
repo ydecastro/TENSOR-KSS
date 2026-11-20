@@ -1,5 +1,9 @@
-"""Section 7: the deficiency table, the null calibration (KS p-values) and the fits of -log(deficiency) on lambda^2,
+"""Section 6, "The true exponent, measured": the deficiency table, the null calibration (KS p-values) and the fits of -log(deficiency) on lambda^2,
 from the JSON lines written by run_point.py. Records with the same (k,d,lambda) are pooled.
+The columns 'paper' and 'vs paper' of the row (3,3) compare with the values of an earlier version of the manuscript;
+the table of the paper is the column 'deficiency'. The 'recomputed comparison exponents' and A_bin, A_sharp concern
+constants that the version of 2026-11-18 no longer uses; its exponent E is computed by
+../numerics/deficiency_exponent_constants.py.
 usage: python3 analyze.py [results.jsonl results_rows_33_34.jsonl ...]"""
 import sys
 import json
