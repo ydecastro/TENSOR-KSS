@@ -17,7 +17,7 @@ run() {   # run <folder> <script> [args]: print the time and the name, save the 
 ROOT=${0:A:h}
 # numerics/: closed forms, quadratures, exact laws, small Monte Carlo runs
 for s in model_constants closed_form_check level_map level_map_draw level_map_typicality reference_student_quantile \
-         quadratic_test ftest local_efficiency numbers_sections_3_to_6 growing_dimension_constants \
+         quadratic_test ftest local_efficiency numbers_sections_3_to_6 growing_dimension_constants constant_Ck_growth constant_Ck_certified \
          literature_constants estimation_lower_bound estimation_sandwich estimation_thresholds lambda0 \
          kacrice_mass_and_sandwich sandwich_refine goe_norm_moment; do
   run numerics $s

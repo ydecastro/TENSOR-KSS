@@ -25,14 +25,16 @@ In the order of the paper. "Main" is the main paper, "Supplement" the Supplement
 | Main, Section 1, *Growing dimension* | sup X/√d tends to about 1.657; C₃ = 7.70; 1.12; 1.21 | `numerics/literature_constants.py`, `numerics/growing_dimension_constants.py` |
 | Main, Section 3.1, after Theorem 1 (`thm:upper`) | κ = 7 and α^{-1/κ} = 1.534 at (3,3); κ = 121 and 1.025 at (5,5) | `numerics/model_constants.py` |
 | Main, Section 3.2, after Lemma 5 (`lem:T2sharp`) | T_max = 3.06, 6.32, 13.9; never exceeded on the simulations, approached on the replicates where the test fails | `numerics/model_constants.py`; `sim/studentised_T2.py` (needs the raw files; `sim/studentised_T2.log`) |
-| Main, Section 3.2, after Corollary 3 (`cor:closed`) | the bound (`eq:closed-nct`) is below 0.05 from λ = 11.0 at (3,5) and 11.4 at (3,3) | `numerics/power_bound_student.py` |
-| Main, Section 3.2, after Corollary 4 (`cor:Sclosed`) | c_α = 12.6 and 18.3; the bound (`eq:Sclosed-nct`) is below 0.05 from λ = 6.8 at (3,3) and 10.0 at (3,5); k/(2(3k−2)) | `numerics/model_constants.py`, `numerics/power_bound_student.py` |
+| Main, Section 3.2, after Corollary 4 (`cor:closed`) | the bound (`eq:closed-nct`) is below 0.05 from λ = 11.0 at (3,5) and 11.4 at (3,3) | `numerics/power_bound_student.py` |
+| Main, Section 3.2, after Corollary 5 (`cor:Sclosed`) | c_α = 12.6 and 18.3; the bound (`eq:Sclosed-nct`) is below 0.05 from λ = 6.8 at (3,3) and 10.0 at (3,5); k/(2(3k−2)) | `numerics/model_constants.py`, `numerics/power_bound_student.py` |
 | Main, Remark 1 (`rem:bracket`), Section 3.3 | the maximiser (0.995, 0.103) T_max at (3,3); the upper bound exceeds the column A by 1.3·10⁻³, 4.6·10⁻⁴, 1.9·10⁻⁶, 3.6·10⁻⁸; the search over all spectra; the table of κ, A, E and the column **S** at the six pairs | `numerics/deficiency_exponent_constants.py` (`deficiency_exponent_constants.json`), `numerics/model_constants.py` |
 | Main, Remark 1, last sentence | the measured slopes lie between 10% below and 7% above E | `numerics/deficiency_vs_exponent.py` |
 | Main, Section 3.5, after Theorem 3 (`thm:sqrtd`) | Υ₃ = 2.214, C₃ = 7.70, C₅ = 21.74, C₇ = 47.06 | `numerics/growing_dimension_constants.py` |
+| Main, Section 3.5, Figure 2 (`fig:Ck`) and the sentences before it; Supplement, Lemma D.5 (`lem:Ck`) | the ratio C_k/(2^{k/2}√k) at the odd orders k = 3, …, 999: largest at k = 5 (1.72), decreasing from k = 5 to k = 999, below 1.02 for k ≥ 21; the bounds of the lemma at every odd k up to 999 | `numerics/constant_Ck_growth.py` (`fig_Ck.pdf`) |
+| Main, Theorem 3 (`thm:sqrtd`), last line, and Section 1, *Growing dimension*; Supplement, Lemma D.5 (`lem:Ck`), statement and last part of the proof | C_k ≤ 1.72·2^{k/2}√k for every odd k from 3 to 123 and C_k ≤ 1.02·2^{k/2}√k from 21 to 123, by interval arithmetic; the ratio at k = 5 in [1.71865, 1.71869] | `numerics/constant_Ck_certified.py` (about fifteen minutes) |
 | Main, Remark 3 (`rem:dim`) | 1.12 for k = 3 | `numerics/literature_constants.py` |
 | Main, Section 4.2, after Theorem 4 (`thm:estim`) | λ₀(k,d) = 28.83, 33.11, 29.50, 38.52, 34.52 | `numerics/lambda0.py` |
-| Main, Remark after Corollary 6 (`cor:minimax`) | 0.0472, 0.01291, 0.003306, 0.000832; 88.54%, 96.80%, 99.18%, 99.79% | `numerics/estimation_lower_bound.py` |
+| Main, Remark after Corollary 7 (`cor:minimax`) | 0.0472, 0.01291, 0.003306, 0.000832; 88.54%, 96.80%, 99.18%, 99.79% | `numerics/estimation_lower_bound.py` |
 | Main, Section 5 (`sec:low`), local efficiency | T_q = (1/5)χ²₃ + (2/35)χ²₇; efficiencies 0.810 and 0.777 | `numerics/quadratic_test.py`, `numerics/local_efficiency.py` (`local_efficiency.out`), `numerics/maximum_test.py` |
 | Main, Section 5, *F*-test | 1.54·10⁻², 42% and 52%, powers 0.100 and 0.191 | `numerics/ftest.py`, `numerics/numbers_sections_3_to_6.py` (part 4) |
 | Main, Section 5, table of the four tests | the row of the quadratic test | `numerics/quadratic_test.py` |
